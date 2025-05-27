@@ -1,0 +1,29 @@
+Practice_1 : Age Group Classifier
+
+Input: Age
+
+Output: “Child”, “Teen”, “Adult”, “Senior” based on range
+
+
+
+Practice_2 :  Simple Interest Calculator
+
+Inputs: Principal, rate, time
+
+Output: Simple interest using formula
+
+
+
+Practice_3 : String Tools
+
+Input a string
+
+Print: reversed string, number of vowels, and capitalized version
+
+
+
+Practice_4 : Basic Menu
+
+Show options: Add, Subtract, Exit
+
+Take choice using input(), handle it with if/else
