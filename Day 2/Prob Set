@@ -1,0 +1,38 @@
+Problem Set
+🔹 1. BMI Calculator
+Write a Python program that asks the user for their height (in meters) and weight (in kilograms), 
+and then calculates their BMI using the formula.
+Display the result rounded to 2 decimal places.
+
+
+
+
+
+
+
+🔹 2. Simple Calculator
+Ask the user to enter two numbers and an operator (+, -, *, /).
+Use if-else conditions to perform the operation and print the result.
+
+
+
+
+
+
+
+
+🔹 3. Bill Splitter
+Ask the user for the total bill amount and the number of people to split it with.
+Calculate how much each person should pay and print the result rounded to 2 decimal places.
+
+
+
+
+
+
+
+
+
+🔹 4. Function-Based Calculator
+Rebuild your calculator using a function named calculate(a, b, operator) that takes 3 inputs and returns the result.
+Let the user input two numbers and an operator and call the function to get the answer.
