@@ -13,3 +13,4 @@ This repository documents my journey of **#100DaysOfCode**, where I code daily, 
 - Build mini projects to apply concepts 🛠️  
 - Contribute to open-source projects 🌍  
 - Build consistency & share progress in public 📢
+- Build Full Stack Concepts 
