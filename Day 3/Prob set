@@ -1,0 +1,44 @@
+🔹 1. Vowel Counter
+Write a program that:
+Takes a string as input
+Counts and prints the number of vowels (a, e, i, o, u) in it
+Ignores case
+
+
+
+
+
+🔹 2. Reverse Words
+Ask the user to enter a sentence.
+Print the sentence with words in reverse order.
+Example: "I love coding" → "coding love I"
+
+
+
+
+
+🔹 3. Palindrome Checker
+Take a string input from the user.
+Check if the string is a palindrome (same forward and backward).
+Ignore case and spaces.
+
+
+
+
+
+
+🔹 4. Multiplication Table Generator
+Ask the user for a number, then print its multiplication table from 1 to 10 using a for loop.
+
+
+
+
+
+
+🔹 5. Password Strength Checker (Basic)
+Ask the user to input a password.
+Write logic to check if:
+It's at least 8 characters
+Contains both letters and numbers
+Prints if it's strong or weak
+
