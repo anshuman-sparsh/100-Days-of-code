@@ -1,0 +1,55 @@
+🔹 1. Grocery List App
+Ask the user to enter 5 grocery items (one by one)
+Store them in a list
+Print the final list at the end
+
+
+
+
+
+
+
+🔹 2. Marks Average
+Ask the user to input marks of 5 subjects
+Store them in a list
+Print the total and average
+Print “Passed” if average ≥ 40, else “Failed”
+
+
+
+
+
+
+
+
+🔹 3. Tuple Basics
+Create a tuple of 5 colors
+Print the first and last color
+Try to change one value and observe what happens (print the error if any)
+
+
+
+
+
+
+
+
+🔹 4. Simple Dictionary Lookup
+Create a dictionary with country names and their capital names
+
+Ask user to enter a country name
+Print the capital using .get()
+If not found, show "Country not in dictionary"
+
+
+
+
+
+
+
+🔹 5. Contact Book (Basic Dict)
+Ask the user to enter 3 names and phone numbers
+Store them in a dictionary: {name: number}
+Let user search for a name
+Print the number if found, else say “Not found”
+
