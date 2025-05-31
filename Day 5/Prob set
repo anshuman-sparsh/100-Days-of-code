@@ -1,0 +1,67 @@
+ 1. Word Frequency Counter
+Ask the user for a sentence
+Split it into words
+Count how many times each word appears
+Print result like:
+the → 2 times  
+dog → 1 time  
+runs → 1 time  
+
+
+
+
+
+
+
+
+
+🔹 2. Remove Vowels from Sentence
+Take a sentence input
+Remove all vowels (a, e, i, o, u) from it
+Print the new sentence
+Use .replace() inside a loop
+
+
+
+
+
+
+
+
+
+🔹 3. Custom Joiner
+Ask user to input 3–5 words
+Join them with - in between (like: word1-word2-word3)
+Use .join()
+Bonus: Let user choose the joining symbol too!
+
+
+
+
+
+
+
+
+
+
+🔹 4. Common Words Checker
+Take 2 sentences as input
+Find and print the words that are common in both
+Use .split() and loop with conditionals
+
+
+
+
+
+
+
+
+
+
+
+
+🔹 5. Password Cleaner
+Ask user to input a password
+Remove leading/trailing spaces, and replace any @ with a, $ with s, 0 with o
+Print the cleaned password
+Use .strip() and .replace()
