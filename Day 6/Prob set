@@ -1,0 +1,65 @@
+🔹 1. Sentence Word Reverser
+Take a sentence as input
+Reverse each word in place (not the order of words)
+"hello world" → "olleh dlrow"
+Use .split(), slicing, .join()
+
+
+
+
+
+
+
+
+🔹 2. Notes Cleaner
+Ask user to enter a sentence that might contain extra spaces and special characters
+Remove leading/trailing spaces, and replace @, $, # with empty space
+Use .strip() and .replace() multiple times
+
+
+
+
+
+
+
+
+
+🔹 3. Score Grader
+Ask user to input scores of 4 subjects
+Average the scores
+Print the grade based on:
+90+ = A
+75–89 = B
+60–74 = C
+Below 60 = D
+Use if/elif/else, lists, append(), sum(), len()
+
+
+
+
+
+
+
+
+
+
+🔹 4. Product Price Checker
+Create a dictionary of 4 products and their prices
+Ask user to input a product name
+Print the price if found, else print “Not available”
+Use .get() safely
+
+
+
+
+
+
+
+
+
+
+
+🔹 5. Word Counter (Basic Version)
+Ask for a sentence
+Count how many words are in it
+Print total words and total characters (excluding spaces)
