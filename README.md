@@ -21,7 +21,7 @@ This repository documents my journey through the **#100DaysOfCode** challenge wh
 - ✅ Learn Git & GitHub workflows (issues, PRs, contributions)  
 - ✅ Make meaningful contributions to open-source repositories  
 - ✅ Prepare for open source contributions  
-- ✅ Document and share progress on GitHub, X, LinkedIn, and Notion 📢
+- ✅ Document and share progress on GitHub, X, LinkedIn, and Notion 
 
 
 
