@@ -1,0 +1,70 @@
+🔹 1. Greet User Function
+Create a function greet_user(name) that prints:
+"Welcome, [name]! Hope you're having a great day."
+Call it after asking the user for their name.
+
+
+
+
+
+
+
+
+🔹 2. Calculator with Functions
+Make a menu-based calculator using functions:
+add(a, b), subtract(a, b), multiply(a, b), divide(a, b)
+Let the user input 2 numbers and choose the operation.
+
+
+
+
+
+
+
+
+
+
+
+🔹 3. Word Length Filter
+Write a function filter_words(sentence) that:
+Takes a sentence
+Prints only the words longer than 4 characters
+Use .split() and a loop
+
+
+
+
+
+
+
+
+
+
+
+
+🔹 4. Email Cleaner
+Write a function clean_email(email) that:
+Strips leading/trailing spaces
+Converts to lowercase
+Removes spaces inside the string
+Return the cleaned email. Then print it.
+
+
+
+
+
+
+
+
+
+
+
+
+
+🔹 5. Mini ATM
+Build a function-based ATM simulator:
+check_balance(), deposit(amount), withdraw(amount)
+Start with balance = 1000
+Use a menu loop to let the user perform actions
+Print updated balance after each action
+(Hint: Use a while loop)
