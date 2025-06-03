@@ -1,0 +1,85 @@
+🔹 1. Max of 3 Numbers
+📌 Objective:
+Write a function that takes 3 numbers and returns the largest.
+🧾 Instructions:
+Ask the user to input 3 numbers
+Pass these numbers to a function max_of_three(a, b, c)
+The function should return the greatest number
+Print the returned result
+
+
+
+
+
+
+
+
+
+🔹 2. Simple Login System
+📌 Objective:
+Create a function that simulates a login check.
+🧾 Instructions:
+Ask the user to input a username and a password
+Create a function login(username, password)
+Inside the function:
+Check if username is "admin" and password is "1234"
+Return "Login successful!" or "Invalid credentials"
+Print the function's return value
+
+
+
+
+
+
+
+
+
+🔹 3. Age Categorizer
+📌 Objective:
+Determine a person’s category based on age.
+🧾 Instructions:
+Ask the user to enter their age
+Create a function categorize_age(age)
+Inside the function, return one of the following:
+"Child" if age < 13
+"Teen" if age is 13–17
+"Adult" if age is 18–60
+"Senior" if age > 60
+Print the result category
+
+
+
+
+
+
+
+
+
+🔹 4. Discount Calculator
+📌 Objective:
+Calculate final price after discount.
+🧾 Instructions:
+Ask user to input:
+Original price of an item
+Discount percentage (e.g., 20 for 20%)
+Create a function apply_discount(price, discount_percent)
+The function should return the discounted price
+Print the final price after discount
+
+
+
+
+
+
+
+🔹 5. Guess the Number Game
+📌 Objective:
+Create a basic number guessing game.
+🧾 Instructions:
+Define a secret number inside the program (e.g., secret = 7)
+Let the user guess the number — allow max 3 tries
+Create a function check_guess(guess, secret) that:
+Returns "Too high", "Too low" or "Correct!"
+Use a while or for loop to give the user up to 3 chances
+End the game if they guess correctly
+
