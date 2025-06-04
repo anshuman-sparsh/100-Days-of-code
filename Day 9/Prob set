@@ -1,0 +1,33 @@
+🔹 1. Odd Even Finder
+Create a function that takes a number and returns whether it is even, odd, or zero.
+
+
+
+🔹 2. Grade Evaluator
+Write a function that accepts a score and returns a grade (A, B, C, or D) based on the range.
+
+
+
+
+
+
+🔹 3. Min-Max Finder
+Create a function that takes three numbers and returns the smallest and largest.
+
+
+
+
+
+
+🔹 4. Triangle Type Checker
+Write a function that determines whether a triangle is Equilateral, Isosceles, or Scalene based on side lengths.
+
+
+
+
+
+
+
+🔹 5. Leap Year Checker
+Create a function that checks if a year is a leap year or not, and returns the result.
+
