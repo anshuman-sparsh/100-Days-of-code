@@ -1,0 +1,36 @@
+🚀 Project 1: Personal Expense Tracker
+🔹 Project Goal
+Build a console-based expense tracker where users can add expenses, see their total, and check their balance.
+
+
+
+🧠 Concepts to Apply
+def functions with parameters and return values
+List to store multiple expenses
+Basic menu logic using if-elif-else
+Loop to keep the app running until the user exits
+Optional: simple formatting, string concat, or data type conversions
+
+
+
+
+
+📌 Requirements
+Ask the user to enter their starting balance
+Provide a menu with options:
+Add expense
+Show all expenses
+Show total spent
+Show remaining balance
+Exit
+
+
+Store each expense as a value in a list
+Update total spent after each new expense
+On exit, thank the user and show final summary
+
+
+
+
+
+You’re free to be creative — add timestamps, categories, or even a basic password if you want, but the focus is logic, structure, and reusability.
