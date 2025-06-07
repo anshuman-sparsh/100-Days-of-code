@@ -1,0 +1,22 @@
+🔹 1.
+Create a function that returns a dictionary mapping each word in a sentence to its length.
+
+
+
+🔹 2.
+Write a function that takes a dictionary of student names and scores, and returns all names with scores above 80.
+
+
+
+🔹 3.
+Create a function that receives a dictionary and prints all keys and values in a clean format.
+
+
+
+🔹 4.
+Write a function that takes a dictionary of countries and capitals, and returns the capital if a country is found, otherwise "Not Found".
+
+
+
+🔹 5.
+Create a function that takes a dictionary of item:price and returns a new dictionary with only the items that cost more than ₹100.
