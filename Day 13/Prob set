@@ -1,0 +1,32 @@
+📘 Day 13 Problem Set
+
+
+🔹 1.
+Write a program that asks the user to input a number and prints its square, but catches any non-numeric input with an error message.
+
+
+
+🔹 2.
+Create a calculator function that handles division and returns "Cannot divide by zero" if the second input is 0.
+
+
+
+🔹 3.
+Ask the user for a list of comma-separated numbers. Catch any value that is not a valid number and ignore it during sum calculation.
+
+
+
+🔹 4.
+Write a function that tries to open a file and read it. If the file doesn’t exist, return "File not found."
+
+
+
+🔹 5.
+Create a user login simulator where invalid username/password throws an error, and "Login successful" is printed on correct input.
+
+
+
+🔧 Tools for Day 13
+Concept	                   Toolset
+Error Handling	           try, except, finally, else   
++ Previously Used Tools
