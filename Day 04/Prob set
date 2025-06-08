@@ -53,3 +53,15 @@ Store them in a dictionary: {name: number}
 Let user search for a name
 Print the number if found, else say “Not found”
 
+
+
+
+✅ Day 4 – Lists, Tuples, Dictionaries
+
+Category	     Tools Allowed
+
+Lists	         append(), indexing
+Tuples	         Creation, indexing (immutability concept)
+Dictionaries     dict creation, .get()
+Logic	         Simple conditionals
+Input	         input(), .split()      + Previously Used Tools

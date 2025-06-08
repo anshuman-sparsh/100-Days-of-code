@@ -63,3 +63,20 @@ Use .get() safely
 Ask for a sentence
 Count how many words are in it
 Print total words and total characters (excluding spaces)
+
+
+
+
+Day 6 – Reinforcement Practice
+| Tools = All tools from Days 3 to 5**
+This was a no-new-tools day, focused on reusing:
+
+String methods
+
+Lists/dictionaries
+
+Conditionals
+
+Loops
+
+split(), join(), strip(), append(), get(), etc.

@@ -31,6 +31,10 @@ On exit, thank the user and show final summary
 
 
 
+✅ Day 10 – Mini Project (Expense Tracker)
 
+Category	   Tools Allowed
 
-You’re free to be creative — add timestamps, categories, or even a basic password if you want, but the focus is logic, structure, and reusability.
+Lists	      append(), sum(), enumerate()
+Functions	  Modular logic with def
+Loops	      while True, menu logic   + Previously Used Tools

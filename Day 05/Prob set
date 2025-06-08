@@ -65,3 +65,13 @@ Ask user to input a password
 Remove leading/trailing spaces, and replace any @ with a, $ with s, 0 with o
 Print the cleaned password
 Use .strip() and .replace()
+
+
+
+
+✅ Day 5 – String Methods
+
+Category	    Tools Allowed
+
+Strings	        .split(), .join(), .replace(), .strip()
+ + Previously Used Tools

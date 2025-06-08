@@ -20,3 +20,13 @@ Create a function that finds and returns all duplicate elements in a list.
 
 🔹 5.
 Write a function that takes a list of names and returns the ones that start with a vowel.
+
+
+
+
+✅ Day 11 – Lists Inside Functions
+
+Category	    Tools Allowed
+
+Lists	       Passed as arguments, filtering, append(), .split()
+Functions	   def, return, logic-based filtering      + Previously Used Tools

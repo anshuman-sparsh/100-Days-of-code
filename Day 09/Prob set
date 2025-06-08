@@ -31,3 +31,13 @@ Write a function that determines whether a triangle is Equilateral, Isosceles, o
 🔹 5. Leap Year Checker
 Create a function that checks if a year is a leap year or not, and returns the result.
 
+
+
+
+✅ Day 9 – Return & Condition-Based Logic
+
+Category	     Tools Allowed
+
+Functions	     def, return, multi-argument functions
+Conditionals	 if/elif/else, ==, <, >
+Logic	         Comparison-based returns    + Previously Used Tools                             

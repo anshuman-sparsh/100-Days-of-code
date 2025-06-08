@@ -42,3 +42,14 @@ It's at least 8 characters
 Contains both letters and numbers
 Prints if it's strong or weak
 
+
+
+
+✅ Day 3 – Strings, Loops, Conditions
+
+Category	      Tools Allowed
+
+Strings	         .lower(), .replace(), slicing ([::-1])
+Loops	         for, range(), list iteration
+Types 	         len(), int(), str(), input()
+Misc	         in, not in    + Previously Used Tools

@@ -68,3 +68,13 @@ Start with balance = 1000
 Use a menu loop to let the user perform actions
 Print updated balance after each action
 (Hint: Use a while loop)
+
+
+
+
+✅ Day 7 – Intro to Functions
+
+Category	   Tools Allowed
+
+Functions	   def, return, function calls
++ Previously Used Tools

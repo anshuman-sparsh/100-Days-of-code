@@ -19,3 +19,13 @@ Print: reversed string, number of vowels, and capitalized version
 Practice_4 : Basic Menu
 Show options: Add, Subtract, Exit
 Take choice using input(), handle it with if/else
+
+
+
+
+✅ Day 1 Tools 
+Category	                Tools Allowed
+📥 Input/Output 	       input(), print()
+🔢 Variables	           Basic variable assignment (=, etc.)
+🔤 Data Types	           str, int, float (basic usage)
+➕ Operators	+, -, *, /   (arithmetic only)

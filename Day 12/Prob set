@@ -20,3 +20,14 @@ Write a function that takes a dictionary of countries and capitals, and returns 
 
 🔹 5.
 Create a function that takes a dictionary of item:price and returns a new dictionary with only the items that cost more than ₹100.
+
+
+
+
+✅ Day 12 – Dictionaries with Keys & Values
+
+Category	        Tools Allowed
+
+Dictionaries	    .keys(), .values(), .items(), return dicts
+Functions	         Dictionary return & processing
+Logic	             Filtering based on value/keys    + Previously Used Tools

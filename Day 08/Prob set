@@ -83,3 +83,11 @@ Returns "Too high", "Too low" or "Correct!"
 Use a while or for loop to give the user up to 3 chances
 End the game if they guess correctly
 
+
+
+✅ Day 8 – Conditionals in Functions
+
+Category	   Tools Allowed
+
+Functions	   def, return, multiple if/else branches
+Logic	       Nested conditionals     + Previously Used Tools

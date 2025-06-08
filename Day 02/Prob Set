@@ -36,3 +36,16 @@ Calculate how much each person should pay and print the result rounded to 2 deci
 🔹 4. Function-Based Calculator
 Rebuild your calculator using a function named calculate(a, b, operator) that takes 3 inputs and returns the result.
 Let the user input two numbers and an operator and call the function to get the answer.
+
+
+
+
+✅ Day 2 – Type Conversion & Arithmetic
+
+Category	    Tools Allowed
+
+I/O	            input(), print()
+Types	        int(), float(), str()
+Operators       (+, -, *, /, %)
+Strings	        Concatenation (+), string casting
+Logic           If Else    + Previously Used Tools
