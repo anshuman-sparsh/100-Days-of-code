@@ -1,0 +1,28 @@
+📘 Day 15 Problem Set
+
+🔹 1.
+Create a file named notes.txt and write 3 lines into it using write().
+
+🔹 2.
+Write a program that reads and prints the content of notes.txt.
+
+🔹 3.
+Append a new line to notes.txt without deleting the existing content.
+
+🔹 4.
+Read the file line-by-line and print line numbers along with each line.
+
+🔹 5.
+Create a new file summary.txt that copies only the first 2 lines of notes.txt.
+
+
+
+🔧 Tools for Today
+Tool/Concept	       Description
+open()	               Open files in different modes (r, w, a)
+.read()	               Read the full content of a file
+.readline()     	   Read one line at a time
+.write()	           Write data to a file (overwrite)
+.close()	           Close file manually
+with open(...)	       Auto-close files (preferred method)
+try/except(Optional)   Handle file not found errors
