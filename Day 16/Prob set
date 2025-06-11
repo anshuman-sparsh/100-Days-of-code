@@ -1,0 +1,33 @@
+
+📘 Day 16 Problem Set
+
+🔹 1.
+Read a CSV file students.csv and print each line.
+
+
+🔹 2.
+Split each line into name and age, and print in a formatted way: Name: John, Age: 21
+
+
+🔹 3.
+Count how many students are aged above 20 and print the count.
+
+
+🔹 4.
+Create a new file adults.csv and store only the records of students aged ≥ 18.
+
+
+🔹 5.
+Find and print the name of the youngest student from the CSV.
+
+
+
+
+
+
+
+Type	               Tool / Function	           Purpose
+📂 File Access	      open(), 'r' mode	      To open and read the file
+📥 Reading	         .read()	              To read the full content of the file
+📄 Parsing	         .splitlines()	          To split the file content into line-by-line
+🔤 String Ops	     .split(',')	          To split each CSV line into fields + Previously Used Tools
