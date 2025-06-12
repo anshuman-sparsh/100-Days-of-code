@@ -1,0 +1,31 @@
+📘 Day 17 Problem Set
+
+🔹 1.
+Create a JSON string of a student object (name, age, grades) and load it into a Python dictionary using json.loads().
+
+
+🔹 2.
+Save a list of 3 such student dictionaries into a file called students.json using json.dump().
+
+
+🔹 3.
+Read students.json and print each student's name and average grade.
+
+
+🔹 4.
+Add a new student to the list and overwrite the updated list back into the file.
+
+
+🔹 5.
+Search for a student by name and print their full record. If not found, print “Not Found”.
+
+
+
+Tools for Day 17
+Tool/Concept	        Use
+import json	           Load JSON library
+json.loads()	       Parse JSON from string
+json.load()	           Load JSON from a file
+json.dumps()	       Convert Python to JSON string
+json.dump()            Write JSON to a file
+with open()	           Read/write files safely + Previously Used Tools
