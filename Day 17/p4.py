@@ -6,7 +6,7 @@
 
 import json
 
-# Step 1: Open and load existing student data
+
 with open("Day 17/students.json", "r") as f:
     students = json.load(f)
 
