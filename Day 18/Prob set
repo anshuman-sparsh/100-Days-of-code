@@ -1,0 +1,31 @@
+📘 Day 18 Problem Set
+
+
+🔹 1.
+Use the math module to calculate the square root, floor, and ceiling of a number entered by the user.
+
+
+🔹 2.
+Simulate a dice roll using random.randint(1, 6) and print the result.
+
+
+🔹 3.
+Pick a random item from a list of fruits using random.choice().
+
+
+🔹 4.
+Print today’s date and time using datetime.datetime.now() in this format: DD-MM-YYYY HH:MM
+
+
+🔹 5.
+Ask the user for their birthdate (YYYY-MM-DD) and calculate their age in years using datetime.
+
+
+
+🔧 Tools of the Day
+
+
+Module	            Powers Gained
+math	            Perform advanced math: square roots, powers, rounding, trig
+random	            Generate random numbers, choices, shuffles — useful in games, testing, etc.
+datetime	        Get current date, time, format it, calculate durations and birthdays 🎂
