@@ -1,0 +1,48 @@
+📘 Day 19 Problem Set
+
+
+🔹 1.
+Create a file utils.py with functions:
+add(a, b), subtract(a, b), multiply(a, b), divide(a, b)
+
+
+
+🔹 2.
+In main.py, import those functions and ask the user to choose an operation with 2 numbers.
+
+
+
+🔹 3.
+Add a function in utils.py to check if a number is even or odd. Use it from main.py.
+
+
+
+🔹 4.
+Move a birthday age calculator (from Day 18) into utils.py and call it in main.py.
+
+
+
+🔹 5.
+Create a new module string_utils.py with a function to:
+Count vowels in a word
+Return word length
+Use it in main.py as well.
+
+
+
+
+
+
+Tools To Use Today
+
+Tool / Concept	                    Description
+import	                            Import your own Python file (module)
+from module import	                Import specific functions from module
+.py modules	                        Write and organize code across files
+Reuse functions	                    Call pre-written logic cleanly
+if __name__ == "__main__"	        Optional: write testable modules
+
+
+Split the code into:
+utils.py – reusable functions
+main.py – your core app logic
