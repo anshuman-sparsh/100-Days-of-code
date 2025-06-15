@@ -1,0 +1,30 @@
+📌 Day 20 – Project 3: File-Based To-Do List App
+🎯 Goal: Build a command-line To-Do list where tasks are stored in a .txt file and persist across runs.
+
+
+
+🔧 Tools You’ll Use Today
+Concept	                          Purpose
+open(), 'a', 'r', 'w'	          To read, write, and append tasks
+with	                          Safe file handling
+input()	                          Take user action/commands
+list	                          Store and display tasks temporarily
+strip()	                          Clean newline characters
+
+
+
+Core Features to Build
+🔹 1. Add Task
+Prompt user to enter a task and store it in todo.txt using append mode.
+
+🔹 2. View All Tasks
+Read and print all tasks from the file with numbering.
+
+🔹 3. Remove Task by Number
+Allow the user to delete a task based on its number (rewrite the file after removal).
+
+🔹 4. Clear All Tasks
+Ask for confirmation and clear the entire file if confirmed.
+
+🔹 5. Exit
+Close the program cleanly.
