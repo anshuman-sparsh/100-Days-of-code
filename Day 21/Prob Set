@@ -1,0 +1,47 @@
+📘 Day 21 Problem Set
+
+
+🔹 1.
+Fetch your GitHub profile data using:
+https://api.github.com/users/anshuman-sparsh
+Print your name, public repos, and followers.
+
+
+
+🔹 2.
+Use https://api.agify.io/?name=YOURNAME
+Print the predicted age for a given name.
+
+
+
+🔹 3.
+Use https://api.coindesk.com/v1/bpi/currentprice.json
+Print current Bitcoin price in USD.
+
+
+
+🔹 4.
+Use https://dog.ceo/api/breeds/image/random
+Print a random dog image URL (or open it with webbrowser).
+
+
+
+🔹 5.
+Call a fake API (https://invalid.api) and handle the error gracefully using try/except.
+
+Tip: Always check response.status_code == 200 before using .json()
+
+
+
+
+
+
+Tools for Day 21
+Tool/Concept	          Purpose
+import requests	          To fetch data from APIs
+requests.get()	          Send a GET request
+.status_code	          Check if request was successful (200)
+.json()	                  Parse the JSON response
+try/except	              Handle API failures gracefully
+
+Don’t need API keys today — Will use public APIs only.
