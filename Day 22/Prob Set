@@ -1,0 +1,42 @@
+📘 Day 22 Problem Set
+
+
+🔹 1. Book Class
+Create a class Book with attributes: title, author, and year.
+Create an object and print its details using a method.
+
+
+
+🔹 2. Student Class
+Define a class Student with name, roll_no, and branch.
+Create multiple students and display their info.
+
+
+
+🔹 3. BankAccount
+Create a class with owner and balance.
+Add a method show_balance() and instantiate it with your name.
+
+
+
+🔹 4. Car Class
+Make a class with brand, model, and year.
+Add a method start_engine() that prints a message.
+
+
+
+🔹 5. Rectangle Area Calculator
+Create a class Rectangle with length and width.
+Add a method area() that returns the area of the rectangle.
+
+
+
+
+🧰 Tools Allowed Today
+Tool/Concept	          Purpose
+class	                  To define blueprints for real-world entities
+__init__()	              To initialize object attributes (constructor)
+self	                  To refer to the current object (instance)
+Attributes	              Store object-specific data
+Methods	                  Define behavior/functions inside a class
+
