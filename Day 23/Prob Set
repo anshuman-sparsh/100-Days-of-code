@@ -1,0 +1,41 @@
+📘 Day 23 Problem Set
+
+
+🔹 1. Laptop Class
+Create a Laptop class with instance variables: brand, ram, price.
+Add a class variable total_laptops to count all objects created.
+
+
+
+🔹 2. Employee Class
+Add a company_name class variable, and use @classmethod to change it.
+
+
+
+🔹 3. Calculator Class
+Add static method is_even(num) that checks if a number is even.
+Also create instance method to multiply two numbers.
+
+
+
+🔹 4. Circle Class
+Use class variable pi = 3.14. Add instance method to return area.
+Use @classmethod to change the value of pi.
+
+
+
+
+🔹 5. Student Registry
+Maintain a class variable list of all student names created.
+Use @classmethod to print all registered students.
+
+
+
+
+Tools & Concepts You’ll Use Today:
+
+Tool/Concept	                  Purpose
+self.variable	                  Instance variable – unique to each object
+ClassName.variable	              Class variable – shared across all objects
+@classmethod	                  Operates on the class, not the instance
+@staticmethod	                  Utility method that doesn’t touch class or instance
