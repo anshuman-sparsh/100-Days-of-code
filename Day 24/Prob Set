@@ -1,0 +1,41 @@
+📘 Day 24 Problem Set
+
+
+🔹 1. Animal Class → Dog Class
+Create a base class Animal with method speak() → “Animal speaks”.
+Create Dog subclass that overrides speak() → “Woof!”
+
+
+
+🔹 2. User → Admin Inheritance
+Create a User class with name and method display_info().
+Extend it with Admin, which adds permissions and overrides display.
+
+
+
+🔹 3. Vehicle → Car
+Vehicle has brand & max_speed. Car adds seats and overrides a method details() to include both base and child data.
+
+
+
+🔹 4. Account → SavingsAccount
+Base class has balance and deposit() method.
+Child class adds interest_rate and add_interest().
+
+
+
+🔹 5. Shape → Square
+Shape has attribute color.
+Square has side, area method, and uses super() to set color.
+
+
+
+
+
+Tools/Concepts 
+Concept	                    Description
+class Child(Parent)	        Inherit from another class
+super().__init__()	        Call parent constructor
+Method Overriding	        Redefine methods in child class
+isinstance()	            Check object type
+Reuse + Extend	            Add new features to inherited methods
