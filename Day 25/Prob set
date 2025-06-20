@@ -1,0 +1,47 @@
+🔷 Day 25 – Project 4: Class-Based ATM System
+🎯 Goal: Build a fully functional ATM simulator using OOP with classes and methods.
+
+
+
+
+📘 Project Requirements
+Create an ATM system with the following:
+
+1️⃣ Account Class:
+Attributes: name, balance, pin
+
+Methods:
+check_balance()
+deposit(amount)
+withdraw(amount)
+change_pin(old_pin, new_pin)
+
+2️⃣ Menu-driven Program:
+Prompt user to log in with PIN
+
+Show a menu:
+1. Check Balance  
+2. Deposit Money  
+3. Withdraw Money  
+4. Change PIN  
+5. Exit  
+Validate inputs (don’t crash if user types a string or wrong PIN)
+
+Run in loop until user exits
+
+
+
+
+
+
+
+
+🔧 What You’ll Practice Today:
+
+Concept	                            Why It's Important
+
+class Account:	                    Organize ATM functionality cleanly
+__init__()	                        Set up user data
+Class Attributes               	    Track balance, user info
+Methods (deposit, withdraw, etc.)	Simulate ATM options
+Input/Output handling	            Create a usable console app
