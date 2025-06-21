@@ -1,0 +1,41 @@
+📘 Day 26 Problem Set
+
+
+🔹 1. Greeting Tool
+Create a script that takes a name via --name and prints a greeting.
+Example: python greet.py --name Anshuman → Hello, Anshuman!
+
+
+
+🔹 2. Math CLI Tool
+Take two numbers (--a, --b) and a --operation (add/sub/mul/div).
+Run it from the terminal to perform the operation and print the result.
+
+
+
+🔹 3. File Info Tool
+Take a file path and print:
+File name
+File size in KB
+Whether it exists
+Use os.path.exists() and os.path.getsize().
+
+
+
+🔹 4. Random Password Generator
+Take a --length argument and generate a password using random and string modules.
+
+
+
+🔹 5. Weather Tool (Mock)
+Take a --city argument and pretend to fetch weather (just print a random weather status like "Sunny in Delhi").
+
+
+
+
+Tools & Concepts for Today
+Tool / Concept	                    Purpose
+argparse module	                    Build CLI tools with named/positional arguments
+if __name__ == "__main__"	        Entry point of the program
+--flag, -o, -n	                    Command-line options & switches
+Modular functions	                Code organization in CLI apps
