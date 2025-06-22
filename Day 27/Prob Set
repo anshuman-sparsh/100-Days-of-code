@@ -1,0 +1,57 @@
+🔁 Day 27 – OOP + CLI + Argument Parsing Revision
+
+
+
+
+🔹 1. Course Registration Tool 
+Create a script course_reg.py with:
+Class Student with name, roll, course
+Accept values via command-line args: --name, --roll, --course
+Print:
+Student [name] (Roll: [roll]) has registered for [course]
+
+
+
+🔹 2. Rectangle Calculator
+Create rectangle_tool.py using:
+Rectangle class: takes length and width
+Accept --length and --width via CLI
+Add method to compute and print area and perimeter
+
+
+
+🔹 3. Student Score Evaluator 
+Create score_eval.py:
+Accept a file path via --file (text file containing names and marks)
+Read the file line by line (Name, Score)
+Print only students with score ≥ 60
+
+📝 Use a sample file like:
+
+Ravi, 70  
+Amit, 45  
+Sana, 90  
+
+
+
+
+🔹 4. Password Analyzer Tool 
+Create pass_check.py:
+Class Password with value as input
+Methods:
+is_strong() → length ≥ 8, mix of letters + digits
+show_strength() → print result
+Use --password as input from terminal.
+
+
+
+
+🔹 5. Weather Bot  
+Create weather_bot.py:
+WeatherBot class with city as attribute
+Use CLI input --city
+Print mock weather based on city:
+Use dictionary inside the class for random mappings:
+Delhi → “Hot”
+Shimla → “Cold”
+Mumbai → “Humid”
