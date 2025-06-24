@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BMI Calculator</title>
+</head>
+<body>
+    <h1>BMI Calculator</h1>
+    <form method="POST">
+        <label>Weight (kg):</label>
+        <input type="number" name="weight" required><br><br>
+
+        <label>Height (cm):</label>
+        <input type="number" name="height" required><br><br>
+
+        <input type="submit" value="Calculate BMI">
+    </form>
+        <h2>Your BMI is: {{ bmi }}</h2>
+</body>
+</html>

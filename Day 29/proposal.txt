@@ -1,0 +1,103 @@
+GSOC INFORMATION
+Have you participated in Google Summer of Code in the past? If so, for Drupal? If not, for which organization? Please describe your participation in Google Summer of Code.
+No
+Have you applied to GSoC in the past and are you applying to any other organizations this year? If so, please explain.
+No
+How many hours will you devote to your GSoC project each week? What are your other summer plans?
+My college semester ends in first week of May. After that I will be able to devote 8-10 hours a day (more if necessary) till the last week of July. After that, my college reopens in August but I will still be able to devote 5-6 hours a day for the project. I don’t have any summer plan other than GSoC.
+Have you registered an account at Drupal.org and joined groups.drupal.org/google-summer-code? Link to your account please!
+https://drupal.org/user/2567004
+
+TECHNICAL INFORMATION
+Have you ever worked with Git?
+Yes. My github profile - https://github.com/shivanshuag
+
+Have you ever utilized IRC?
+Yes. My freenode nick - shivanshu
+
+It's required that you complete "Drupal Ladder for GSoC Students" before applying. Please provide evidence.
+In the issue https://drupal.org/node/2094985 , I have rerolled a patch which shows - I can install drupal, use git, create a patch, test them. Screenshot -
+
+Have you ever contributed code to Drupal?
+I have recently contributed patches to fix some issues of the securesite module. I also became one of the maintainers of the securesite module recently and have already committed code to it’s 7.x-2.x branch. https://drupal.org/user/2567004/track, https://drupal.org/user/2567004/track/code
+Have you ever built a Drupal site or helped on a Drupal project?
+Yes. My first encounter with Drupal was when I had to build an internal wiki for our institute(IIT Kanpur). Apart from that, I have also built another site - http://pclub.in which is the site of Programming Club of IIT Kanpur.
+
+If you have not previously contributed to any open source projects, can you provide example code from school?
+I am a prolific coder and most of the code I have written can be found at
+https://github.com/shivanshuag
+
+PROJECT INFORMATION
+Which project idea sparks your interest and why?
+I am interested in project number 4 - porting securesite module to drupal 8 because I like the use case of the module and I am already familiar with basic http auth and digest auth.
+
+Treating this project as a real proposal, provide your implementation plan with as much detail as possible such as weekly time breakdowns, methods of mentor communication, project management, and when to expect specific results/deliverables.
+
+The porting of this module has following parts-
+Drupal 8 configuration management system- Drupal has moved from configuration based on variables to configuration stored in yml files. One of the first step towards porting the module will be to change the module to use this configuration system. This will also involve making logical configuration schema for the module.
+Basic Auth Using Modular Authentication System of Drupal 8 - Drupal 8 has introduced a modular authentication system which includes basic http auth along with the cookie based sessions. Secure site module provides access restriction based on - http basic auth, http digest authentication and form based authentication. In the drupal 8 port, http basic auth has to modified to use the existing basic auth service.
+Drupal 8 services and events - Drupal 8 has introduced services in place of many hooks and global variables are used by the module ex- hook_boot and global $user. To port the module to drupal 8, appropriate changes have to be made
+Theming - Theme API in drupal 8 has been changed to use TWIG theming templates instead of PHP templates. Current theming implementations in the module have to be changed accordingly.
+HTTP Digest auth - In HTTP digest auth, digest of the password is sent across the network to prevent MITM attack. For this, digest of the password is stored on the server independent of Drupal installation. This mechanism requires user to create a separate database for storing password digest and setup scripts provided by the module to manage password (drupal should have the ability to store passwords but not retrieve them). A separate script is provided for authentication.
+Improvement in the UI - UI improvements will be aimed at making it easier to set up digest authentication. There will be separate configuration for the digest authentication which will be similar to drupal installation. The php script will check for the database and ask for its credentials(it will also warn the user to move the config file generated to a secure location ). Then, it will ask for the location of the scripts for the digest authentication. It will also prompt the users to change the file system permissions on the all the files in the digest_md5 directory so that only administrators have access to them.
+
+Detailed Description (only if this is a new idea, otherwise if there is a description -online, please provide the URL): https://drupal.org/project/securesite
+
+Expected Deliverables: (list the main items that you will deliver be during the program):
+- A fully functioning module for drupal 8 which is able blocks unauthorized access to website using basic http auth or digest auth or form based auth as chosen by the user.
+- Unit tests for the module
+- Documentation for the drupal 8 port of the module
+- A video explaining how to use the module
+
+Timeline (break down by every week of GSoC)
+Bonding Period
+21 April to 18 May: Getting more familiar with drupal 8, drupal coding standards
+Coding Period 1
+19 May - 25 May: Creating configuration schema and Upgrading variables to configuration system
+26 May - 01 June and 02 June - 08 June : Fixing the deprecated api’s
+09 June - 15 June: basic auth mechanism
+16 June - 22 June: Bugfixes, refactoring the code, write unit tests
+Mid Term Evaluation
+23 June: Mid term submission
+Coding Period 2
+23 June - 29 June: form based authentication
+30 June July - 06 July: http digest mechanism - script for storing and managing password
+07 July - 13 July: http digest mechanism - script for auth using the stored password and realm
+14 July - 20 July: theming
+21 July - 27 July: Improving the UI
+28 July - 03 Aug: Bugfixes and refactoring
+04 Aug - 10 Aug: Unit Tests and writing documentation
+11 Aug - 17 Aug: Make a video explaining how to set up securesite module
+18 Aug: Final submission
+
+Mentors: Lee- and serpicody
+
+Difficulty: Easier
+
+Which aspect of the project idea do you see as the most difficult?
+Most difficult part of the project is the http digest authentication due to many different components like managing separate database for passwords and scripts to add new users and authenticate using digest involved in it.
+
+Which aspect of the project idea do you see as the easiest?
+The easiest part of the project is theming because the module has only one page, which contains the login form and the password reset form, to be themed. Apart form that, the changes in theming are mostly in the templating language but the rest of the architecture(hooks and preprocess/preprocess functions) does not have any major changes.
+
+Which portion of the project idea will you start with?
+I will start with the Configuration Management system first because it is the most logical step to port the module and independent of other parts. All the other parts make use of the variables defined by the CMI.
+
+How will deal with project, task, and time management? Will you utilize software? If so, which tool and why?
+
+Time Management:
+- Blog post every week on my blog - http://niunjaducks.in to give an idea to everyone of what has been done and how has it been done. These blog posts will also provide support for writing documentation later for the module.
+- Meetings with mentors two times a week through Hangouts.Time and day? I prefer Tuesday and Thursday any time between 15:00 to 19:00 UTC
+- I will always be online on IRC while I work
+
+How will deal with project, task, and time management? Will you utilize software? If so, which tool and why?
+- 15 minute SCRUM meetings with the mentors every Tuesday and Thursday of project at noon Chicago time (22:30 IST)on Skype
+- On discussion with the mentors, we have decided upon a project management tool in which I will add the tasks, comment, update, and log time to each task. I will log time daily.
+-Weekly blog posts. These blog posts will also provide support for writing documentation later for the module.
+
+Why Me?
+- I am already familiar with drupal and also securesite module, so learning period for me will be less and I can spend more time on coding.
+- I am one of the maintainers of the module and have committed some code and submitted some patches for the module. - https://drupal.org/user/2567004/track
+
+Biography
+I am Shivanshu Agrawal, a student of IIT Kanpur, India. I came across drupal for the first time when I was developing a wiki for the institute. Since then, I have been a follower of drupal and have also made more sites using it. I have always been a tech enthusiast and web technologies interest me the most. I am an active member of Navya(FOSS community of IITK navya.github.io) which aims at increasing awareness about Open Source and quality of computing in the campus community. I am also the coordinator of Programming Club of IIT Kanpur which aims at improving the programming culture among students of the institute. Though I have not contributed much to drupal until recently, I have started and I am enjoying it. I am looking forward to an enjoyable summer with GSoC.

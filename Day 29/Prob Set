@@ -1,0 +1,52 @@
+🚀 Day 29 – GSoC Warm-up + Flask Forms & Templates
+🎯 Goal: Learn how to collect user data using HTML forms in Flask and explore real-world open source ideas for GSoC prep.
+
+
+
+📘 Day 29 Problem Set
+
+
+🔹 1. Flask Form – Greet User
+Route: /form
+Display a form asking for name and age
+After submit, show:
+"Hello Anshuman! You are 20 years old."
+
+
+
+🔹 2. Flask BMI Calculator
+Route: /bmi
+Form input: weight (kg) and height (cm)
+Calculate BMI and show result after form submit
+
+
+
+🔹 3. Proposal Preview (Mock GSoC)
+Create a .txt or .md file with a sample GSoC proposal idea
+Flask route: /proposal
+Read and display that file content in HTML
+
+
+
+🔹 4. Feedback Form (POST only)
+Route: /feedback
+Ask for name and feedback (textarea)
+On submit, save feedback to a feedback.txt file
+
+
+
+🔹 5. Dropdown Interest Form
+Route: /interests
+Form: Name + dropdown with options (Python, ML, Web, DSA)
+Show result: Thanks Anshuman! You’re interested in Web.
+
+
+
+
+
+Topic	                               Why It Matters
+templates/ & render_template()	       Show dynamic HTML pages
+methods=['GET', 'POST']	               Handle form submissions
+request.form.get()	                   Access form inputs
+HTML + Flask + logic	               Combine design with code
+GSoC Proposal Preview	               Understand what real-world open source tasks look like
