@@ -1,0 +1,26 @@
+Day 30 – Reflection Log ✨
+
+Over the past 30 days, I’ve made incredible progress in my programming journey. 
+I started with Python fundamentals and slowly advanced into building CLI tools, creating Flask web applications, and understanding how backend logic connects with the frontend.
+
+What I’ve Learned:
+- Clean Python coding practices
+- Command-line tools with argparse
+- Building web apps with Flask
+- Using HTML forms and templates in Flask
+- Understanding GET and POST requests
+- Writing and reading files in Python
+- Basics of GSoC and how to write a proposal
+
+Challenges Faced:
+- Initially struggled with URL routing and handling form data in Flask
+- Understanding Jinja templating took some time
+- Debugging form inputs and rendering responses correctly
+
+What I’m Excited About Next:
+- Learning to integrate APIs with my Flask apps
+- Working with databases like SQLite and PostgreSQL
+- Building a full-stack application from scratch
+- Developing my skills for Open Source 
+
+I feel more confident as a developer and am excited for what’s ahead. Let’s go! 🚀
