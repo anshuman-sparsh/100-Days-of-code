@@ -1,0 +1,45 @@
+🧪 Day 31 Problem Set
+
+
+🔹 1. Random Joke Generator
+📌 Use the Official Joke API
+🧾 Fetch a random joke and print:
+"Why don't scientists trust atoms? — Because they make up everything!"
+
+
+
+🔹 2. Bitcoin Price Checker
+📌 Use CoinDesk API
+🧾 Fetch current BTC price in INR and display:
+Current Bitcoin Price in INR: ₹XXXXXX
+
+
+
+🔹 3. NASA Astronomy Picture of the Day (APOD)
+📌 Use https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY
+🧾 Print the title, date, and explanation.
+Use NASA's demo key for free requests.
+
+
+
+🔹 4. Country Info Finder
+📌 Use REST Countries API → https://restcountries.com/v3.1/name/india
+🧾 Input a country name, print capital, region, population, and currency.
+
+
+
+🔹 5. IP Address Lookup
+📌 Use IP API → http://ip-api.com/json/
+🧾 Show your city, country, and ISP using your own IP.
+
+
+
+
+
+
+🧰 Tools Allowed Today
+
+requests (third-party library)
+json (standard library)
+try/except for basic error control
+APIs with open GET access (no token needed)
