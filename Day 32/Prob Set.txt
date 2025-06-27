@@ -1,0 +1,46 @@
+✅ Day 32 – API Integration Project: Weather App 🌤️
+🎯 Goal: Build a weather checking CLI tool using the OpenWeatherMap API and requests.
+
+
+
+🛠️ Project Instructions
+🔹 Weather CLI Tool
+🧾 Features to include:
+
+Ask user for a city name
+Fetch weather using OpenWeatherMap
+Print:
+City
+Weather description
+Temperature (°C)
+Feels like
+Humidity
+Wind speed
+
+📌 Handle:
+Invalid city
+Network/API errors
+
+
+Example Output:
+
+🌤️ Weather in Patna:
+Temperature: 34°C (feels like 36°C)
+Condition: clear sky
+Humidity: 58%
+Wind Speed: 3.5 m/s
+
+
+
+🧰 Tools Allowed Today
+requests
+json
+.get() & .json()
+try/except, input(), string formatting
+Weather API: OpenWeatherMap API
+
+🔑 Use the free API key by signing up here: https://home.openweathermap.org/users/sign_up
+Once you get your key, you’ll call this:
+
+
+https://api.openweathermap.org/data/2.5/weather?q={city}&appid={YOUR_API_KEY}&units=metric
