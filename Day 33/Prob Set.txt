@@ -1,0 +1,36 @@
+🔧 Problem Set – Day 33 (Function Refactoring)
+
+
+
+🔹 1. Voting Eligibility System
+📌 Ask user to enter name and age.
+✅ Create get_user_info() and is_eligible(age) functions.
+If age ≥ 18 → print: "Anshuman, you are eligible to vote!"
+Else → print: "Sorry Anshuman, try again when you're older."
+
+
+
+🔹 2. BMI Category Reporter
+📌 Ask for height (in meters) and weight (in kg).
+✅ Use calculate_bmi() and get_bmi_category(bmi)
+Categorize into: Underweight, Normal, Overweight, Obese.
+
+
+
+🔹 3. Word Cleaner & Counter (Keep this one as it is)
+📌 Ask for a sentence, clean special characters (@$#), count words.
+✅ Use clean_sentence(text) and count_words(text)
+
+
+
+🔹 4. Student Record System (Refactor Style)
+📌 Input student name & marks in 3 subjects.
+✅ Use: get_student_data(), calc_total(marks), display_summary(name, total)
+Output a short report.
+
+
+
+🔹 5. Even/Odd Table Generator
+📌 Ask user for a range (start to end).
+✅ Use: is_even(n), generate_table(start, end)
+Print each number and whether it’s Even or Odd.
