@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quote Submission</title>
+</head>
+<body>
+    <h2>Submit Your Favorite Quote</h2>
+    <form method="POST">
+        <label>Name:</label>
+        <input type="text" name="name" required><br><br>
+        
+        <label>Quote:</label>
+        <input type="text" name="quote" required><br><br>
+        
+        <button type="submit">Submit Quote</button>
+    </form>
+
+    <hr>
+    <h3>All Submitted Quotes:</h3>
+    <ul>
+        {% for q in quotes %}
+            <li>{{ q }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

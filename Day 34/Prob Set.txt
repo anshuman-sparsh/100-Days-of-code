@@ -1,0 +1,55 @@
+🔧 Day 34 – Problem Set
+
+🔹 1. Contact Form Handler
+📌 Route: /contact
+🧾 Show an HTML form with fields: Name, Email, Message
+➡️ When user submits → show thank you page with their name.
+
+
+
+🔹 2. Simple Login Form
+📌 Route: /login
+🧾 Form with username and password → POST → validate (admin/1234)
+➡️ Show “Login Success” or “Invalid Credentials”
+
+
+
+🔹 3. Feedback Collector
+📌 Route: /feedback
+🧾 Ask for user’s name, rating (1–5), and feedback text.
+✅ After POST → store in a text file + show success message.
+
+
+
+🔹 4. Newsletter Signup Form
+📌 Route: /subscribe
+🧾 Create an HTML form to collect a user's name and email address.
+✅ After form submission (POST), store the email in a .txt file and show a "Thanks for subscribing, [name]!" message on a new page.
+
+
+
+🔹 5. Quote Submission App
+📌 Route: /quote
+🧾 Input name and quote → show all submitted quotes on the same page
+📁 Save quotes to a .txt file.
+
+
+
+
+
+Concept	                               Uses
+@app.route(..., methods=['POST'])	   Handle form submissions securely
+request.form.get()	                   Extract form field values from POST data
+HTML Forms (templates)	               Connect frontend forms to Python backend
+Page rendering & redirection	       Make apps feel dynamic + interactive
+
+
+
+Day 34/
+├── app1.py
+├── app2.py
+├── ...
+└── templates/
+    ├── form.html
+    ├── result.html
+    └── ...
