@@ -1,0 +1,61 @@
+🔧 Day 35 – Problem Set
+🔹 1. Report Card Formatter
+📌 Input: name, 3 subject marks
+✅ Output:
+Name: Anshuman  
+Maths: 94  
+Physics: 88  
+Chemistry: 91  
+Total: 273 | Average: 91.00
+Use f-strings with aligned formatting and two decimal places.
+
+
+
+
+🔹 2. Formatted Invoice Generator
+📌 Input: item name, quantity, price/unit
+✅ Output invoice like:
+Item        Qty     Price     Total  
+Pen         10      5.00      50.00  
+Use alignment and decimal formatting.
+
+
+
+
+🔹 3. Currency Formatter
+📌 Input: amount (e.g. 1000000)
+✅ Output: ₹1,000,000.00 using f"{amt:,.2f}"
+
+
+
+
+🔹 4. User Info Badge
+📌 Ask: Name, Age, Country
+✅ Print a “badge” like:
++-------------------------+
+| Name: Anshuman          |
+| Age: 19                 |
+| Country: India          |
++-------------------------+
+
+
+
+
+🔹 5. Formatted Summary Table
+📌 Input 3 names and scores
+✅ Output like a leaderboard:
+Name        Score  
+Anshuman    98  
+Riya        85  
+Neeraj      92  
+Neatly aligned using .format() or f-strings.
+
+
+
+
+Concept	                Purpose
+f"{var}"	            Easy inline formatting
+{:<10} {:^10}	        Left, center, right alignment
+{:.2f}	                Decimal control (e.g., 2 decimal places)
+"{name}".format()	    Named placeholders
+{:,}	                Thousand separator formatting
