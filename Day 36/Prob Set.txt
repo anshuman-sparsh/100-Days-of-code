@@ -1,0 +1,19 @@
+✅ Day 36 – Currency Converter CLI Project
+🔹 Objective:
+Build a CLI tool using real-time currency API to convert between currencies.
+
+
+Currency Converter CLI Tool
+Create a Python script that:
+Takes amount, from_currency, and to_currency from user input or command-line args.
+Fetches real-time conversion rates from an API like exchangerate.host.
+Displays converted amount.
+
+
+
+🔧 Tools/Concepts Allowed:
+requests (for real API fetching)
+try/except (basic error handling)
+argparse (optional, for CLI structure)
+File I/O (open(), read(), write())
+Markdown for README formatting
