@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>GitHub Profile</title>
+</head>
+<body>
+  {% if error %}
+    <h3 style="color:red;">❌ {{ error }}</h3>
+  {% else %}
+    <h2>👤 {{ data.name }} ({{ data.login }})</h2>
+    <img src="{{ data.avatar_url }}" width="150" />
+    <p>📍 Location: {{ data.location or "Not specified" }}</p>
+    <p>📦 Public Repos: {{ data.public_repos }}</p>
+    <p>👥 Followers: {{ data.followers }}</p>
+    <p>🔗 <a href="{{ data.html_url }}" target="_blank">Visit Profile</a></p>
+  {% endif %}
+</body>
+</html>

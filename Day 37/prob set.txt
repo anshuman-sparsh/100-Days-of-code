@@ -1,0 +1,15 @@
+✅ Day 37 – GitHub Profile Analyzer (via API)
+🎯 Goal: Build a Python-based mini project that takes a GitHub username and fetches key profile stats using the GitHub public REST API.
+Build a basic HTML form to accept the GitHub username.
+On submission, Flask will:
+Call the GitHub API
+Parse and process the response
+Display the profile data beautifully using a Jinja2 HTML template
+
+
+
+🧠 Features to Include:
+Feature	                          Type
+GitHub username form	          HTML + Flask
+Display: profile info, repos	  Flask + Jinja
+Handle invalid username error	  try/except
