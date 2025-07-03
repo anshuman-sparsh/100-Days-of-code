@@ -1,0 +1,25 @@
+Day 38 – JavaScript Foundations
+
+🔹 Problem Set – Day 38
+1. Variable Swap
+Declare two variables a = 5, b = 10, swap them and print the new values.
+
+2. Greeting Function
+Write a function greet(name) that prints Hello, [name]! when called.
+
+3. Odd or Even
+Create a function isEven(n) that prints whether a number is even or odd.
+
+4. Simple Calculator
+Write a function calculate(a, b, operator) that performs +, –, *, / based on the operator.
+
+5. Favorite Movies Array
+Create an array of 5 favorite movies and print each using a for loop.
+
+
+
+Tool	              Purpose
+let, const	          Variable declarations
+function()	          Create and call functions
+Arrow =>	          Arrow function syntax (try one)
+console.log()	      Output your answers
