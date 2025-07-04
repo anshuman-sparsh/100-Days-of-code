@@ -1,0 +1,32 @@
+🧪 Problem Set – Day 39
+Write each as a separate file like P1.js, P2.js, ...
+
+🔹 1. Filter Even Numbers
+Write a function that takes an array and returns a new array with only even numbers.
+
+
+🔹 2. Count Vowels in String
+Take a string and count how many vowels are in it using a loop and conditionals.
+
+
+🔹 3. Student Object Summary
+Create an object student with name, age, and grades (array). Write a method to print the average grade.
+
+
+🔹 4. Multiples of 3 and 5
+Print all numbers from 1 to 50. For multiples of 3, print "Fizz", for 5 "Buzz", and for both "FizzBuzz".
+
+
+🔹 5. Reverse an Array
+Write a function that reverses an array without using .reverse().
+
+
+
+
+🛠 Tools Allowed Today
+Tool	                          Purpose
+for, while, for...of	          Loops
+if, else, switch	              Conditionals
+Arrays	                          Data handling
+Objects	                          Key-value pairs, methods
+console.log()	                  Output and testing
