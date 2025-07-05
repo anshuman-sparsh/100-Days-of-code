@@ -1,0 +1,37 @@
+🧪 Problem Set – Day 40
+Make a simple HTML + JS file for each question.
+
+
+🔹 1. Change Heading Text
+Create a page with a heading and a button. On clicking the button, change the heading text to "Hello, DOM!".
+
+
+🔹 2. Toggle Background Color
+Add a button that toggles the background color between light and dark mode.
+
+
+🔹 3. Counter App
+Create a number counter with:
+➕ Increment button
+➖ Decrement button
+🔄 Reset button
+
+
+
+🔹 4. Live Input Display
+Add an input box. As you type, the text should appear live below it.
+
+
+🔹 5. Show/Hide Paragraph
+Create a paragraph and a button. Clicking the button hides/shows the paragraph text.
+
+
+
+🛠 Tools Allowed Today
+Tool	                        Purpose
+getElementById()	            Select elements
+querySelector()	                More flexible selectors
+.innerText, .value, .style	    Modify content/style
+addEventListener	            Handle clicks, input, etc.
+HTML + JS	                    Build browser-based interactivity
+
