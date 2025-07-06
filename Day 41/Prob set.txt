@@ -1,0 +1,26 @@
+✅ Project for Day 41: "Quote Generator Web App"
+🎯 Goal: Build a minimal and fun quote generator app using plain HTML, CSS & JavaScript.
+
+
+
+🧩 Features
+🔹 Basic Features:
+A Generate Quote button.
+A placeholder for quote + author.
+Randomly displays quotes on each click.
+Quotes stored in an array of objects in JavaScript.
+
+
+🌟 Bonus Features:
+Support for keyboard shortcut (e.g., press Enter to generate).
+Animate quote text on change (CSS transition or fade).
+
+
+
+🛠 Tools You Can Use
+Tool	             Use For
+HTML	             Structure
+CSS	                 Styling
+JavaScript	         DOM manipulation, logic
+Math.random()	     Random quote selection
+addEventListener()   Click/keyboard handling
