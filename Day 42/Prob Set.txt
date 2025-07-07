@@ -1,0 +1,49 @@
+🧪 Problem Set – Day 42
+You can build these in a single project or separate small forms.
+
+
+
+🔹 1. Name & Email Validator
+Form with 2 fields:
+Name (required)
+Email (must contain @)
+Show errors if invalid, prevent form submission.
+
+
+
+🔹 2. Password Strength Checker
+Input box + button.
+Check if password is:
+At least 8 characters
+Includes both letters and numbers
+Show “Weak” / “Strong” message.
+
+
+
+🔹 3. Live Character Count
+Text area that displays:
+Remaining characters (max 100)
+Update count as user types.
+
+
+
+🔹 4. Phone Number Validator
+Input should accept only 10-digit numbers (optional: start with 9/8/7).
+Show error message if wrong.
+
+
+
+🔹 5. All-in-One Form
+Build a registration form with:
+Name, Email, Password, Phone
+Add validations on submit and show a final success message.
+
+
+
+
+💡 Tools Allowed:
+Tool	                                            Purpose
+HTML form	                                        Input UI
+JS: addEventListener, .value, .innerText, .style	DOM validation
+.preventDefault()	                                Prevent form submission
+
