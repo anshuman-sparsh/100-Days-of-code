@@ -1,0 +1,40 @@
+✅ Day 43 – Expense Logger (Client-Side Project)
+🎯 Goal: Build a responsive web-based expense tracker that lets users log and view their daily expenses.
+
+
+
+📌 Project Features
+🔹 Minimum Requirements:
+Input fields:
+Expense name
+Amount
+Add Expense button
+Display logged expenses below with:
+Expense name
+Amount
+Show total expenses at the bottom
+
+
+
+🔹 Bonus (Optional):
+Delete button for each entry
+Input validations (name ≠ empty, amount is number)
+Save in localStorage (so data stays on reload)
+Dark mode toggle 🌙
+Responsive UI (mobile friendly)
+
+
+
+🧰 Tools Allowed
+Tool/Concept	Purpose
+HTML + CSS	Structure & styling
+JavaScript	Logic & interactivity
+DOM Methods	.value, .innerText, append()
+localStorage (Bonus)	Data persistence
+addEventListener()	Input handling
+
+📁 Suggested Folder Structure
+Day 43/
+├── index.html
+├── style.css
+└── script.js
