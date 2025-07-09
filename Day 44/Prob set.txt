@@ -1,0 +1,10 @@
+Revisit,Recap,Deploy and build one program.
+
+🔹 Project: Word Counter App
+📝 Goal: Build a small tool where the user enters text and the app shows:
+
+Total words
+
+Total characters
+
+Live update as they type
