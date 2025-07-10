@@ -1,0 +1,44 @@
+Day 45 – Arrays & Strings (Easy Problems)
+Goal: Practice JS basics like .map(), .filter(), .split(), .join(), loops, conditions, etc.
+
+
+
+🔹 Problem 1: Double the Numbers
+📌 Task:
+Create a function that takes an array of numbers and returns a new array with all numbers doubled.
+✅ Use: map()
+
+
+
+
+🔹 Problem 2: Vowel Remover
+📌 Task:
+Write a function that takes a string and returns it with all vowels removed (a, e, i, o, u).
+✅ Use: Loop
+
+
+
+
+🔹 Problem 3: Longest Word Finder
+📌 Task:
+Create a function that takes a sentence and returns the longest word.
+✅ Use: split() + loop
+
+
+
+
+🔹 Problem 4: Unique Numbers
+📌 Task:
+Create a function that removes duplicate numbers from an array and returns the new array.
+✅ Use: Set() or manual loop
+
+
+
+
+🧰 Tools Allowed
+Tool/Concept	Usage
+map(), filter()	Transforming arrays
+split(), join()	Handling strings/words
+Loops & conditions	Problem-solving logic
+Set()	Handling duplicates
+Functions	Code organization
