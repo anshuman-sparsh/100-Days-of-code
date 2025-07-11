@@ -1,0 +1,55 @@
+Day 46 – Frequency-Based Problems Using JS Objects
+Goal: Use objects {} in JavaScript as hashmaps to count or track occurrences efficiently.
+
+
+
+
+🔹 Problem 1: Most Frequent Character
+📌 Task:
+Write a function that takes a string and returns the character that appears the most.
+
+Input: "mississippi"
+Output: "i"
+✅ Tools: loop, JS object (dictionary), max tracking
+
+
+
+🔹 Problem 2: Word Frequency
+📌 Task:
+Take a sentence, and count how many times each word appears. Return the frequency map.
+
+Input: "I love JS and I love learning"
+Output: { I: 2, love: 2, JS: 1, and: 1, learning: 1 }
+✅ Tools: split(), .toLowerCase(), object counting
+
+
+
+🔹 Problem 3: Are Anagrams?
+📌 Task:
+Write a function that checks if two strings are anagrams (i.e., same characters with same frequency).
+
+Input: "listen", "silent"
+Output: true
+✅ Tools: frequency maps (two objects), compare keys + values
+
+
+
+
+🔹 Problem 4: First Non-Repeating Character
+📌 Task:
+Given a string, return the first character that does not repeat. Return null if all repeat.
+
+Input: "aabccdeff"
+Output: "b"
+✅ Tools: object + loop through again
+
+
+
+
+
+🧰 Tools Allowed
+Tool / Concept	            Use Case
+JS Object {}	            Counting occurrences
+Loops	                    Traversing strings/arrays
+split(), toLowerCase()	    Word-level logic
+hasOwnProperty()	        Checking key existence
