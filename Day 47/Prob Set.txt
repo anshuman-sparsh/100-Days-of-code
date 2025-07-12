@@ -1,0 +1,53 @@
+Day 47 – Set & Tuple Logic Simplification (JS Version)
+Date: 12 July 2025
+Theme: Clean & simple problem-solving using Sets and simulated tuples (as 2-element arrays)
+
+
+
+🔹 Problem 1: Unique Numbers from Array
+📌 Task:
+Write a function that removes duplicate numbers from an array using a Set.
+
+Input: [1, 2, 2, 3, 4, 4, 5]
+Output: [1, 2, 3, 4, 5]
+✅ Use: Set and spread operator
+
+
+
+🔹 Problem 2: Common Elements in Two Arrays
+📌 Task:
+Find all the common elements between two arrays using Sets.
+
+Input: [1, 2, 3, 4], [3, 4, 5, 6]
+Output: [3, 4]
+✅ Use: Set and .filter()
+
+
+
+🔹 Problem 3: Count Unique Words in a Sentence
+📌 Task:
+Given a sentence, count how many unique words are present.
+
+Input: "JavaScript is fun and JavaScript is powerful"
+Output: 5
+✅ Use: .split(), Set
+
+
+
+🔹 Problem 4: Tuple Pair Sum
+📌 Task:
+Given a list of number pairs (tuples), return a new array with the sum of each pair.
+
+Input: [[1, 2], [3, 4], [5, 6]]
+Output: [3, 7, 11]
+✅ Use: loops or .map() (simulate tuples with arrays)
+
+
+
+
+🧰 Tools Allowed
+Tool / Concept	         Use Case
+Set	                     Unique filtering, comparisons
+.split()	             Sentence to word conversion
+.map() / loops           Transform array contents
+Array of arrays	         Simulate tuples (like [a, b])
