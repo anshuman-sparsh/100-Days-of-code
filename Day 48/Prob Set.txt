@@ -1,0 +1,46 @@
+Day 48 – JS DOM Recap 🖱️
+Focus: Build 4 simple apps/pages that use core DOM manipulation
+(Each one should be standalone, 1 HTML file + 1 JS file)
+
+
+
+🔹 1. Real-Time Title Mirror
+📌 Task:
+Create an input field where the user types their name or text, and the page title (<title>) updates in real-time to reflect what they type.
+
+✅ Use:
+document.title = ...
+input event
+Optional: placeholder to say "Type something..."
+
+
+
+
+🔹 2. Background Color Changer
+📌 Task:
+Have 3–4 color buttons. Clicking a button should change the background color of the whole page.
+
+✅ Use:
+addEventListener("click", ...)
+document.body.style.backgroundColor
+
+
+
+
+🔹 3. Hide and Show Paragraph
+📌 Task:
+Make a button that toggles the visibility of a paragraph.
+
+✅ Use:
+style.display = "none" and "block"
+.addEventListener("click")
+
+
+
+
+🔹 4. Light Bulb Toggle
+📌 Task:
+Show an image of a bulb (on.png / off.png). Add a button that toggles the bulb image and text.
+✅ Use:
+src attribute change
+Button text switch between “Turn On” / “Turn Off”
