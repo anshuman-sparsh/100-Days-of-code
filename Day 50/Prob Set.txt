@@ -1,0 +1,45 @@
+✅ Day 50 – 4 Beginner Problems (Stack & Queue)
+
+
+🔹 1. Balanced Parentheses Checker (Stack)
+Check if the input string has balanced parentheses ().
+
+Input: "(()())" → ✅ Balanced
+Input: "(())(()" → ❌ Not balanced
+
+
+
+🔹 2. Reverse a String using Stack
+Use stack operations to reverse a string without using [::-1] or reversed().
+
+Input: "hello" → Output: "olleh"
+
+
+
+🔹 3. Queue Simulator (FIFO)
+Simulate a queue with 3 operations:
+
+enqueue(item)
+
+dequeue()
+
+show()
+
+Use collections.deque
+
+
+
+🔹 4. First Non-Repeating Character (Queue)
+Given a string, return the first character that does not repeat using queue logic.
+
+Input: "aabbcde" → Output: "c"
+Input: "aabb" → Output: "No non-repeating character"
+
+
+
+
+🛠️ Tools Allowed:
+Python
+list for Stack
+collections.deque for Queue
+for/while, if, len(), .append(), .pop(), .popleft()
