@@ -1,0 +1,22 @@
+✅ Day 52 – Intro to AI & Machine Learning
+
+📌 Topic: Python
+
+📚 Subtopic: Introduction to AI & ML — what, why, how
+
+🔍 What You’ll Learn Today
+
+  Concept	                             Description
+🤖 AI vs ML vs DL	                 Understand the difference between Artificial Intelligence, Machine Learning, and Deep Learning
+📈 Why ML?	                         Learn why ML is needed in real-world applications (automation, predictions, personalization, etc.)
+🔧 Types of ML	                     Supervised, Unsupervised, Reinforcement, Deep Learning
+🛠️ ML Workflow	                      Data → Model → Training → Evaluation → Prediction
+🧰 Tools/Libraries	                 Python, NumPy, Pandas, scikit-learn, Matplotlib
+
+
+Suggested Learning Format (Today)
+Watch 1 beginner-friendly video on AI/ML concepts
+Write a small summary on: What is ML? Why use it?
+Create a Day 52 folder with:
+intro_to_ml.txt
+basic_predict.py (a basic ML program using scikit-learn)

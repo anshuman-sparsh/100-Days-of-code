@@ -1,0 +1,65 @@
+AI vs. ML vs. DL: Understanding the Differences
+
+
+Artificial Intelligence (AI)
+Broad field: designing machines to perform tasks requiring human intelligence (e.g., decision-making, reasoning, perception). 
+
+
+Machine Learning (ML)
+A subset of AI where systems learn from data without explicit programming. Ideal for predictions or classifications based on historical data.
+
+
+Deep Learning (DL)
+A subset of ML that uses multi-layered neural networks, mimicking the human brain for complex learning tasks (e.g., image recognition, NLP,)requires large datasets and compute power.
+
+
+
+
+Types of ML
+There are three main types:
+
+Supervised Learning: Learns from labeled data to predict outcomes (e.g., classifying emails as spam).
+
+Unsupervised Learning: Finds patterns in unlabeled data (e.g., clustering customer groups).
+
+Reinforcement Learning: Learns through trial and error with rewards (e.g., training a robot to walk).
+
+
+
+
+
+
+Typical ML Workflow
+Data Collection
+
+Data Processing & Cleaning
+
+Model Selection (e.g., regression, classification)
+
+Training – letting the model learn patterns
+
+Evaluation – checking accuracy, performance
+
+Prediction/Deployment – using model on new data
+
+
+
+
+
+Tools/Libraries
+NumPy, Pandas: Data manipulation & analysis
+
+scikit-learn: Classic ML models (e.g., linear regression, decision trees)
+
+Matplotlib: Data visualization
+
+TensorFlow, PyTorch: For deeper learning and neural networks
+
+
+
+
+
+
+Watched these videos: 
+https://youtu.be/Yq0QkCxoTHM?si=gjenTfNHsMyNv6wr
+https://youtu.be/tNBvUvsScAA?si=W6UV4_Z1CX2a3S9d
