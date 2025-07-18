@@ -1,0 +1,62 @@
+✅ Day 53 – NumPy Basics in Python
+🧮 Arrays, Indexing, Reshaping & NumPy Essentials
+
+🔍 What You’ll Learn Today:
+What is NumPy and why it's used in data science/ML
+Creating arrays with np.array(), np.arange(), np.linspace()
+Indexing and slicing arrays
+Array shapes & reshaping with .reshape()
+Array math operations
+Basic stats: mean, sum, std, etc.
+Broadcasting and vectorized operations
+
+
+
+🔧 Tools Allowed:
+Python 🐍
+NumPy (import numpy as np)
+VSCode
+CLI if preferred
+
+
+
+🔹 Problem 1: Create a NumPy Array
+Task:
+Create a NumPy array from a list of numbers [1, 2, 3, 4, 5] and print the array and its data type.
+
+
+
+
+🔹 Problem 2: Array of Zeros & Ones
+Task:
+Create a 2D NumPy array of shape (2, 3):
+
+First with all zeros
+
+Then with all ones
+
+
+
+
+
+🔹 Problem 3: Reshape and Slice
+Task:
+Create a NumPy array of numbers from 1 to 12, reshape it to a 3x4 array, and print:
+
+the full array
+
+second row
+
+last column
+
+
+
+🔹 Problem 4: Basic Stats on Array
+Task:
+Create a NumPy array [10, 20, 30, 40, 50] and calculate:
+
+Mean
+
+Sum
+
+Standard Deviation
