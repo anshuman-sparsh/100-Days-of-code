@@ -1,0 +1,33 @@
+🔹 1. Create and Modify a NumPy Array
+
+# Task: Create a NumPy array of numbers from 1 to 10. Square each element and print the new array.
+# Bonus: Filter elements greater than 25.
+
+
+🔹 2. Matrix Operations
+
+
+# Task: Create two 2x2 NumPy arrays. Perform addition, subtraction, and matrix multiplication.
+
+
+
+🔹 3. Find Unique Elements
+
+# Task: Given an array with repeated values, return only the unique elements using NumPy.
+
+
+
+🔹 4. Reshape and Slice
+
+# Task: Create a NumPy array of 12 elements, reshape it to 3x4, then print:
+# - 2nd row
+# - Last column
+# - A sub-matrix of size 2x2 from the center
+
+
+
+
+🔧 Tools Allowed:
+numpy library
+
+reshape(), unique(), dot(), array slicing/indexing
