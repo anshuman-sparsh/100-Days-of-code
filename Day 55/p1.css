@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding: 40px;
+}
+
+.info-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  width: 300px;
+  margin: auto;
+  padding: 20px;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+}
+
+.info-card h1 {
+  margin-top: 0;
+  font-size: 24px;
+  color: #333;
+}
+
+.info-card p {
+  color: #555;
+  margin: 15px 0;
+}
+
+.info-card footer {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.info-card a {
+  text-decoration: none;
+  color: #0077cc;
+  margin: 0 5px;
+}

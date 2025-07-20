@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f2f2f2;
+}
+
+header {
+  background-color: #6e5df1;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  padding: 20px;
+}
+
+.post {
+  background: white;
+  margin-bottom: 20px;
+  padding: 15px;
+  border-left: 4px solid #007acc;
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
+}
+
+footer {
+  background: #0c3e3d;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}

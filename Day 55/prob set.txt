@@ -1,0 +1,32 @@
+Topic: HTML & CSS
+Subtopic: Semantic HTML + CSS Box Model
+Today’s goal: Build 4 mini web layouts that help you practice using:
+Semantic tags (<header>, <main>, <article>, <footer>, etc.)
+CSS box model (margin, padding, border, width, height)
+Layout styling (using classes and IDs properly)
+
+
+
+
+1. Personal Info Card
+A card that shows your name, short bio, and social links
+Use <article>, <h1>, <p>, and <footer>
+
+
+
+2. Simple Blog Layout
+Header, a couple of blog posts, and footer
+Use <header>, <section>, <article>, <footer>
+
+
+
+3. Product Showcase
+Card with image, product name, description, and price
+Focus on padding/margin, image responsiveness
+
+
+
+
+4. Newsletter Signup Page
+Heading, input fields for name & email, and a subscribe button
+Use form + box model styling
