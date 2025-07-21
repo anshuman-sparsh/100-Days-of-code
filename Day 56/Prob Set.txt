@@ -1,0 +1,32 @@
+📌 Day 56 – Plan
+Topic: HTML/CSS
+Subtopic: Flexbox Deep Dive – Responsive Navbars & Cards
+
+
+
+
+🔧 What You’ll Practice:
+1. Horizontal Navigation Bar
+With logo, nav items, and a call-to-action button
+Adjusts to smaller screens using flex-wrap or media queries
+
+
+
+
+2. Card Layout
+Build 3–4 cards in a row (title, image, description)
+Cards should wrap nicely on smaller screens
+
+
+
+
+3. Centered Content Page
+Use justify-content, align-items, flex-direction
+Practice vertical & horizontal centering
+
+
+
+
+4. Mini Project – Responsive Landing Header
+Combine nav + hero + CTA
+Make it mobile-friendly using Flexbox only
