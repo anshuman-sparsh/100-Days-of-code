@@ -1,0 +1,46 @@
+📌 CSS Grid for powerful layout control
+📱 Media Queries for making it mobile-friendly
+🎯 Goal: Understand grid placement, auto-fill, grid-template-areas, and breakpoints
+
+
+
+
+💻 Your 4 Projects for Day 57:
+🔹 1. Responsive Image Gallery
+Create a CSS Grid-based image gallery layout.
+Desktop: 4 columns
+Tablet: 2 columns
+Mobile: 1 column
+Use media queries for layout shifts.
+
+
+
+
+
+🔹 2. Simple Blog Homepage Layout (Sample Version)
+Create a layout with:
+Header
+3-column main content (left-nav, article, right-sidebar)
+Footer
+Make it single-column on mobile using grid + media queries.
+
+
+
+
+
+🔹 3. Pricing Cards Grid
+Display 3 pricing cards in a row on desktop.
+Stack them vertically on mobile.
+Use grid-template-columns and responsive units (%, fr, etc).
+
+
+
+
+
+
+🔹 4. Portfolio Section with Grid Areas (Sample Version)
+Build a layout using grid-template-areas like
+"header header"
+"sidebar content"
+"footer footer"
+Restructure for mobile with media queries.
