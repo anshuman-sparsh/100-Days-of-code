@@ -1,0 +1,53 @@
+✅ Day 58 – DSA in Python
+📚 Topic: Python
+🧠 Subtopic: Medium-Level DSA Practice (Lists, Strings, Sets, Logic)
+
+
+
+🔹 Problem Set
+
+1. Longest Consecutive Sequence
+Given an unsorted array of integers, find the length of the longest consecutive elements sequence.
+Input: [100, 4, 200, 1, 3, 2] → Output: 4 (sequence is 1, 2, 3, 4)
+
+
+
+2. Group Anagrams
+Write a function that groups anagrams from a list of strings.
+Input: ["eat", "tea", "tan", "ate", "nat", "bat"]
+Output: [["eat", "tea", "ate"], ["tan", "nat"], ["bat"]]
+
+
+
+3. Product of Array Except Self
+Return an array such that each element at index i is the product of all numbers in the array except the one at i.
+Input: [1,2,3,4] → Output: [24,12,8,6]
+
+
+
+4. Rotate Matrix by 90 Degrees (In-Place)
+Given an n x n 2D matrix, rotate it 90 degrees clockwise.
+Example:
+
+Input:
+[
+  [1,2,3],
+  [4,5,6],
+  [7,8,9]
+]
+
+
+Output:
+[
+  [7,4,1],
+  [8,5,2],
+  [9,6,3]
+]
+
+
+
+
+🛠 Allowed Tools:
+Python built-in data structures
+collections module (Counter)
+Sorting, dictionaries, sets
