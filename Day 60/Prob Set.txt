@@ -1,0 +1,36 @@
+📌 Day 60 Focus:
+Deepen your understanding of JavaScript through hands-on concepts & practice.
+
+
+
+🔹 Q1. Closure Counter
+Create a function createCounter() that returns a function which increments and returns a private counter value each time it’s called.
+Goal: Practice closures and private variables.
+
+
+
+
+🔹 Q2. Hoisting Quiz
+Write a short JS snippet to demonstrate how variable hoisting and function hoisting work.
+Goal: Observe the difference between var, let, const, and function declarations.
+
+
+
+
+
+🔹 Q3. Chained Promises
+Write a chain of promises that simulates a step-by-step task (e.g., preparing tea: boil water → add tea leaves → pour tea).
+Goal: Understand promise chaining and handling sequential async tasks.
+
+
+
+
+
+🔹 Q4. Mini Project – Delay Loader App
+Build a tiny interactive JS app that:
+Has a button "Start Loading"
+Shows a loader/spinner for 3 seconds
+Displays "Loaded!" after the delay
+
+Goal: Use DOM + setTimeout() effectively.
+💡 HTML + JS required
