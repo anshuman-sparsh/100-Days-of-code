@@ -1,0 +1,37 @@
+🛠️ Project: Product Landing Page + Interactive Feature
+🔸 Project Idea:
+Build a Product Landing Page for a fictional product or service. Include a hero section, features, pricing, and an interactive "Subscribe Now"
+or "Learn More" button with modal or animation using JavaScript.
+
+
+
+✅ Requirements
+1. HTML
+Semantic layout
+Header with navigation links
+Hero section with product image and tagline
+Features/pricing grid
+Footer with contact/social links
+
+
+
+2. CSS
+Responsive layout with Flexbox/Grid
+Hover effects
+Mobile-friendly using media queries
+Styling for modal/dialog or form
+
+
+
+
+3. JavaScript
+Toggle mobile nav menu
+Scroll-to-section on button click
+Show/hide modal or popup
+Simple form validation (e.g., email input)
+
+
+
+
+🎯 Goal:
+Practice everything you've learned in the frontend — layout, styling, interactivity — and package it as a functional, deployable mini website.
