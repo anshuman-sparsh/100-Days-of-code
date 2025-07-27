@@ -1,0 +1,20 @@
+✅ Project: Tip Calculator
+💡 Description:
+Build a responsive Tip Calculator that lets users input:
+
+Bill Amount
+Tip Percentage
+Number of People
+It should then calculate:
+Total Tip
+Tip per Person
+Total per Person
+
+
+
+🔧 Features:
+Input validation
+Real-time calculation
+Clean, minimal design
+Mobile responsiveness
+Use DOM methods like .querySelector, .addEventListener, .value, .textContent
