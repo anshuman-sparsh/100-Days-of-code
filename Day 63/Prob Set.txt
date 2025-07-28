@@ -1,0 +1,59 @@
+Practice Set – Day 63
+
+
+🔹 Q1: Inheritance Example – Employee Hierarchy
+Create classes Employee, Manager, and Developer. Show how Manager and Developer inherit from Employee and override a method like get_role().
+
+
+
+
+🔹 Q2: Polymorphism – Animal Sounds
+Define a base class Animal with a method speak(). Then create subclasses Dog, Cat, and Cow, each overriding speak(). Write a function that
+takes an Animal object and calls speak().
+
+
+
+
+🔹 Q3: List Comprehension – Squares of Even Numbers
+Given a list of integers, use a list comprehension to return a list of squares of even numbers only.
+
+
+
+
+🔹 Q4: Dictionary Comprehension – Word Count
+Given a string sentence, count the occurrences of each word using a dictionary comprehension.
+
+
+
+🔹 Q5: Nested Comprehension – 2D Matrix
+Generate a 3x3 matrix of numbers using nested list comprehension.
+
+
+
+
+🔧 Tools & Concepts to Use
+Python Core Concepts
+class, __init__(), self
+super() for inheritance
+@classmethod and @staticmethod (optional advanced add-on)
+Method Overriding for Polymorphism
+Encapsulation (private/protected vars with _ and __)
+
+
+
+Comprehensions
+List Comprehension
+Dictionary Comprehension
+Set Comprehension
+Conditional expressions inside comprehensions
+Nested comprehensions (2D lists / matrices)
+
+
+
+
+Python Standard Tools
+input() for simple interaction (optional)
+type() to check object types
+isinstance() for polymorphism checks
+print() for structured output
+split(), lower() and count() for string handling (in Q4)
