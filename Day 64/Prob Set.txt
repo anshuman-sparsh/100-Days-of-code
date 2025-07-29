@@ -1,0 +1,38 @@
+✅ Day 64 Plan – Concepts + Practice
+🔹 What You’ll Learn:
+1.Iterators
+Understanding how iteration works behind the scenes (__iter__(), __next__())
+
+
+2.Generators
+Creating functions with yield
+Differences from regular functions
+Generator expressions
+
+
+3.Use Cases
+Lazy evaluation
+Streaming large data
+Custom generators
+
+
+
+Practice Problems
+
+🔸 p1.py: Custom Iterator
+Create a class CountDown that iterates from a number n down to 1 using the iterator protocol.
+
+🔸 p2.py: Simple Generator
+Write a generator function even_numbers(n) that yields even numbers up to n.
+
+🔸 p3.py: Fibonacci Generator
+Write a generator that yields the Fibonacci sequence up to n terms.
+
+🔸 p4.py: Generator from File
+Read a file line by line using a generator function (simulate large file handling).
+
+🔸 p5.py: Prime Number Generator
+Write a generator that yields prime numbers up to n.
+
+🛠 Tools to be used:
+yield, next(), iter()
