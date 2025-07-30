@@ -1,0 +1,29 @@
+📌 Today's Focus: Advanced NumPy Practice
+🔧 Tools:
+NumPy
+Python built-in functions
+Logical operations & masking
+Matrix operations
+
+
+
+
+Problem Set (Day 65)
+🔹 Q1. Element-wise Square with NumPy
+Take a list of integers, convert it to a NumPy array, and return a new array with each element squared.
+
+
+🔹 Q2. Conditional Replace in NumPy Array
+Create a NumPy array of 10 elements. Replace all values greater than 5 with 1 and the rest with 0.
+
+
+🔹 Q3. Row-wise Sum of 2D Array
+Create a 3x3 NumPy array of your choice and return an array containing the sum of each row.
+
+
+🔹 Q4. Normalize a NumPy Array
+Given a NumPy array of floats, normalize its values between 0 and 1.
+
+
+🔹 Q5. Dot Product of Two Matrices
+Write a function that takes two 2D arrays (3x3) and returns their dot product.
