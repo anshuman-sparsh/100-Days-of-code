@@ -1,0 +1,32 @@
+✅ Day 66 – Advanced Python: Decorators & More
+
+
+🔹 1. Timing Decorator
+Create a decorator @timer that measures the execution time of any function.
+Use it to time a function that computes the factorial of a number using recursion.
+
+
+
+🔹 2. Retry Decorator
+Write a @retry decorator that re-executes a function up to 3 times if it raises an exception.
+Test it on a function that randomly fails (use random.choice([True, False]) to simulate failure).
+
+
+
+🔹 3. Memoization Decorator
+Implement a @memoize decorator for caching function outputs.
+Apply it on a recursive Fibonacci function to optimize it.
+
+
+
+🔹 4. Multiple Decorators
+Create two decorators:
+@uppercase: converts string result to uppercase.
+@bold: wraps the string result in <b>...</b> HTML tags.
+Apply both to a function and explore the effect of decorator order.
+
+
+
+🔹 5. Decorator with Arguments
+Write a decorator @log(level) that logs function calls at different verbosity levels (info, debug).
+Pass the level as a parameter to the decorator.
