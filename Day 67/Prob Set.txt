@@ -1,0 +1,63 @@
+✅ Day 67 – Setup + Core Logic (Backend First)
+Theme: Lay the backend foundation – Build clean logic before flair.
+
+
+
+🧩 What You'll Build Today:
+1. Flask Setup
+Initialize Flask app (app.py)
+Setup routing structure
+
+
+
+
+2. Mood Form Page
+/ → Simple HTML form (mood dropdown or buttons)
+
+
+
+
+3. Mood to Playlist Mapping
+Dictionary with moods as keys
+Each maps to:
+A Spotify or YouTube playlist link
+A motivational quote
+An emoji/symbol
+
+
+
+
+4. Handle User Mood
+GET/POST request to /playlist
+Return data based on selected mood
+
+
+
+5. HTML Output (Minimal)
+Use Jinja to dynamically show:
+Playlist link
+Mood quote
+Matching emoji/image
+
+
+
+
+
+📁 Folder Structure Today:
+
+mood_music/
+│
+├── app.py
+├── templates/
+│   ├── index.html       ← Mood form
+│   └── result.html      ← Playlist & quote
+└── static/
+    └── (Next Day)
+
+
+
+✅ Deliverables for Day 67:
+Working routes / and /playlist
+Logic for mood-based mapping
+Clean minimal HTML output
+Fully functional Flask backend
