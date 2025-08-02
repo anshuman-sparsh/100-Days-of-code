@@ -29,23 +29,23 @@ This repository is my daily log for the **#100DaysOfCode** challenge — where I
 
 ---
 
-🧠 Milestone: Day 60 Completed!
-In the first 60 days, I’ve:
-Mastered core Python and intermediate DSA (Lists, Sets, Hashmaps, 2-pointers, Sliding Window)
-Built 15+ CLI tools, including a Currency Converter, Word Counter, and Regex Matcher
-Created 10+ web apps using Flask, with HTML templates and dynamic routing
-Designed responsive frontend projects using HTML, CSS, Flexbox, and Grid
-Deep-dived into JS DOM, built interactive UI apps like Quiz App, Expense Tracker, Tip Calculator
-Explored NumPy, iterators, generators, comprehensions, and decorators
-Practiced and pushed clean, modular code daily — with GitHub logs and posts
-Laid the groundwork for full stack and open source — ready for the next 30!
+## 🧠 Milestone: Day 60 Completed!
+- In the first 60 days, I’ve:
+- Mastered core Python and intermediate DSA (Lists, Sets, Hashmaps, 2-pointers, Sliding Window)
+- Built 15+ CLI tools, including a Currency Converter, Word Counter, and Regex Matcher
+- Created 10+ web apps using Flask, with HTML templates and dynamic routing
+- Designed responsive frontend projects using HTML, CSS, Flexbox, and Grid
+- Deep-dived into JS DOM, built interactive UI apps like Quiz App, Expense Tracker, Tip Calculator
+- Explored NumPy, iterators, generators, comprehensions, and decorators
+- Practiced and pushed clean, modular code daily — with GitHub logs and posts
+- Laid the groundwork for full stack and open source — ready for the next 30!
 
-Next Up:
-→ Full stack mini projects
-→ JS advanced (fetch, API calls)
-→ Flask + DB integration
-→ Open Source Prep
-→ Polishing GitHub for real-world visibility
+- Next Up:
+- → Full stack mini projects
+- → JS advanced (fetch, API calls)
+- → Flask + DB integration
+- → Open Source Prep
+- → Polishing GitHub for real-world visibility
 
 ---
 
