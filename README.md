@@ -29,21 +29,23 @@ This repository is my daily log for the **#100DaysOfCode** challenge — where I
 
 ---
 
-## 🧠 Milestone: **Day 30 Completed!**
+🧠 Milestone: Day 60 Completed!
+In the first 60 days, I’ve:
+Mastered core Python and intermediate DSA (Lists, Sets, Hashmaps, 2-pointers, Sliding Window)
+Built 15+ CLI tools, including a Currency Converter, Word Counter, and Regex Matcher
+Created 10+ web apps using Flask, with HTML templates and dynamic routing
+Designed responsive frontend projects using HTML, CSS, Flexbox, and Grid
+Deep-dived into JS DOM, built interactive UI apps like Quiz App, Expense Tracker, Tip Calculator
+Explored NumPy, iterators, generators, comprehensions, and decorators
+Practiced and pushed clean, modular code daily — with GitHub logs and posts
+Laid the groundwork for full stack and open source — ready for the next 30!
 
-In the first 30 days, I’ve:
-- Learned the entire core Python stack  
-- Created 10+ command-line tools with `argparse`  
-- Developed 5+ beginner web apps with `Flask`  
-- Practiced daily with clean structure and logs  
-- Written modular, testable, real-world Python scripts  
-- Begun tracking and preparing for open source with GSoC in mind  
-
-Next Up:  
-→ API Integration  
-→ Databases  
-→ Frontend + Full Stack  
-→ Open Source Contributions  
+Next Up:
+→ Full stack mini projects
+→ JS advanced (fetch, API calls)
+→ Flask + DB integration
+→ Open Source Prep
+→ Polishing GitHub for real-world visibility
 
 ---
 
