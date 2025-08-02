@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <title>Mood Music</title>
+</head>
+<body>
+  <div class="container">
+    <h1>🎵 Mood Music 🎵</h1>
+    <form method="POST" action="/playlist">
+      <label for="mood">How are you feeling today?</label>
+      <select name="mood" id="mood">
+        <option value="happy">Happy</option>
+        <option value="sad">Sad</option>
+        <option value="motivated">Motivated</option>
+        <option value="chill">Chill</option>
+      </select>
+      <button type="submit">Get Playlist</button>
+    </form>
+    <a href="/about">About</a>
+  </div>
+</body>
+</html>

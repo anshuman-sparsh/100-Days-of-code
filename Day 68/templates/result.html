@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <title>Your Mood Playlist</title>
+</head>
+<body>
+  <div class="container">
+    <h2>{{ emoji }} You're feeling {{ mood.capitalize() }}!</h2>
+    <p><strong>Quote:</strong> "{{ quote }}"</p>
+    <a href="{{ playlist }}" target="_blank">🎧 Listen to Playlist</a><br>
+    <a href="/">← Go Back</a>
+  </div>
+</body>
+</html>

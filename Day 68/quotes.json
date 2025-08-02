@@ -1,0 +1,18 @@
+{
+  "happy": [
+    "Happiness is contagious, spread it!",
+    "Smile, it looks good on you."
+  ],
+  "sad": [
+    "It's okay to not be okay.",
+    "Tough times never last, but tough people do."
+  ],
+  "motivated": [
+    "Push yourself, because no one else is going to do it for you.",
+    "Dream big and dare to fail."
+  ],
+  "chill": [
+    "Relax, refresh, recharge.",
+    "Sometimes doing nothing is doing everything."
+  ]
+}
