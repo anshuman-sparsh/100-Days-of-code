@@ -11,19 +11,19 @@ with open("quotes.json") as f:
 # Mood to Playlist Mapping
 mood_map = {
     "happy": {
-        "playlist": "https://open.spotify.com/playlist/happy",
+        "playlist": "https://open.spotify.com/playlist/37i9dQZF1DX0UrRvztWcAU?si=dfd84a0d46be4cb2",
         "emoji": "😄"
     },
     "sad": {
-        "playlist": "https://open.spotify.com/playlist/sad",
+        "playlist": "https://open.spotify.com/playlist/37i9dQZF1EIhmSBwUDxg84?si=197b6897911145d9",
         "emoji": "😢"
     },
     "motivated": {
-        "playlist": "https://open.spotify.com/playlist/motivated",
+        "playlist": "https://open.spotify.com/playlist/5wV33ZjypNwpSjRgyob2TZ?si=e473fa14d6684798",
         "emoji": "🔥"
     },
     "chill": {
-        "playlist": "https://open.spotify.com/playlist/chill",
+        "playlist": "https://open.spotify.com/playlist/37i9dQZF1EVHGWrwldPRtj?si=082d81379f864ba9",
         "emoji": "🌴"
     }
 }
