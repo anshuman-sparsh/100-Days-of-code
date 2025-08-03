@@ -10,7 +10,7 @@ Clean UI with a refresh button or form submission
 Day 69/
 │
 ├── app.py
-├── cities.txt              # A list of 100+ city names
+|
 |__ facts.json
 |
 ├── templates/
