@@ -1,0 +1,37 @@
+🌍 Flask Mini Project – Random City Name Generator
+🔧 Features:
+Shows a random city name each time the user loads the page or clicks a "Generate" button.
+Show:
+Country name
+Fun facts about that city
+Clean UI with a refresh button or form submission
+
+
+Day 69/
+│
+├── app.py
+├── cities.txt              # A list of 100+ city names
+|__ facts.json
+|
+├── templates/
+│   ├── index.html
+├── static/
+│   └── style.css  
+
+
+
+✨ How it works:
+cities.txt contains one city per line.
+When a user visits /, Flask:
+Reads from cities.txt
+Randomly selects one city
+Passes it to index.html
+Page displays the city and has a "Generate Another" button (refresh or POST).
+
+
+
+
+💡 Technologies Practiced:
+Flask routing & rendering
+random.choice() from a file
+Templates & form handling

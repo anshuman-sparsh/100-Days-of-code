@@ -1,0 +1,910 @@
+[
+  {
+    "city_name": "Paris",
+    "facts": [
+      "The Louvre Museum in Paris is the world's largest art museum.",
+      "Paris was originally a Roman city called Lutetia.",
+      "There are more dogs in Paris than children."
+    ]
+  },
+  {
+    "city_name": "Tokyo",
+    "facts": [
+      "Tokyo is the most populous metropolitan area in the world.",
+      "The cherry blossom season, or 'sakura', is a major event in Tokyo each spring.",
+      "It has the world's busiest intersection, Shibuya Crossing."
+    ]
+  },
+  {
+    "city_name": "New York",
+    "facts": [
+      "The Statue of Liberty was a gift from France in 1886.",
+      "More than 800 languages are spoken in New York City, making it the most linguistically diverse city in the world.",
+      "The New York Public Library holds over 50 million books."
+    ]
+  },
+  {
+    "city_name": "Cape Town",
+    "facts": [
+      "It is home to Table Mountain, one of the New 7 Wonders of Nature.",
+      "Cape Town was the first European settlement in South Africa.",
+      "It has a colony of African penguins at Boulders Beach."
+    ]
+  },
+  {
+    "city_name": "Sydney",
+    "facts": [
+      "The Sydney Harbour Bridge is nicknamed 'The Coathanger' due to its shape.",
+      "Over 250 different languages are spoken in Sydney.",
+      "The Sydney Opera House's design was inspired by the segments of an orange."
+    ]
+  },
+  {
+    "city_name": "Rio de Janeiro",
+    "facts": [
+      "The Christ the Redeemer statue is one of the New Seven Wonders of the World.",
+      "Rio de Janeiro's Carnival is the biggest carnival in the world.",
+      "The city's name means 'River of January' in Portuguese."
+    ]
+  },
+  {
+    "city_name": "Toronto",
+    "facts": [
+      "Toronto is one of the most multicultural cities in the world, with over half of its population born outside of Canada.",
+      "The CN Tower was the world's tallest free-standing structure for 32 years.",
+      "It is home to the world's third-largest English-language theatre district."
+    ]
+  },
+  {
+    "city_name": "Barcelona",
+    "facts": [
+      "The city has several famous buildings designed by Antoni Gaudí, including the Sagrada Família.",
+      "Barcelona has its own 'beach' which was artificially created for the 1992 Olympics.",
+      "It is the largest city on the Mediterranean Sea."
+    ]
+  },
+  {
+    "city_name": "Dubai",
+    "facts": [
+      "Dubai is home to the world's tallest building, the Burj Khalifa.",
+      "The city has an indoor ski resort in the Mall of the Emirates.",
+      "Dubai's police force uses supercars like Lamborghinis and Ferraris."
+    ]
+  },
+  {
+    "city_name": "Istanbul",
+    "facts": [
+      "Istanbul is the only city in the world that straddles two continents: Europe and Asia.",
+      "It was the capital of three great empires: the Roman, Byzantine, and Ottoman.",
+      "The Grand Bazaar is one of the oldest and largest covered markets in the world."
+    ]
+  },
+  {
+    "city_name": "Rome",
+    "facts": [
+      "The Colosseum is the largest amphitheater ever built.",
+      "There is a city law that allows cats to live without disruption in the place they were born.",
+      "Rome has a museum dedicated entirely to pasta."
+    ]
+
+  },
+  {
+    "city_name": "Singapore",
+    "facts": [
+      "Singapore is one of only three city-states in the world.",
+      "It has the world's first nocturnal zoo, the Night Safari.",
+      "The national language is Malay, but English, Mandarin, and Tamil are also official languages."
+    ]
+  },
+  {
+    "city_name": "Seoul",
+    "facts": [
+      "Seoul is the birthplace of K-Pop.",
+      "The city's official name is Seoul Special Metropolitan City.",
+      "It has the world's fastest average internet speed."
+    ]
+  },
+  {
+    "city_name": "Cairo",
+    "facts": [
+      "Cairo is home to the Great Pyramids of Giza and the Sphinx.",
+      "It is the largest city in the Arab world and Africa.",
+      "The Khan el-Khalili bazaar has been a center of trade since the 14th century."
+    ]
+  },
+  {
+    "city_name": "Amsterdam",
+    "facts": [
+      "Amsterdam has more canals than Venice.",
+      "There are more bicycles than people in Amsterdam.",
+      "The city is built on more than 11 million wooden poles."
+    ]
+
+  },
+  {
+    "city_name": "Bangkok",
+    "facts": [
+      "Bangkok's full ceremonial name is one of the longest city names in the world.",
+      "It is home to the world's largest solid gold Buddha statue.",
+      "The city is often called the 'Venice of the East' due to its many canals."
+    ]
+  },
+  {
+    "city_name": "Berlin",
+    "facts": [
+      "Berlin has more bridges than Venice.",
+      "The city has the longest open-air gallery in the world, the East Side Gallery.",
+      "Berlin is nine times bigger than Paris but has a much lower population density."
+    ]
+  },
+  {
+    "city_name": "Buenos Aires",
+    "facts": [
+      "Buenos Aires is the birthplace of the tango dance.",
+      "It has the widest avenue in the world, Avenida 9 de Julio.",
+      "The city has more bookstores per person than any other city in the world."
+    ]
+  },
+  {
+    "city_name": "London",
+    "facts": [
+      "The London Underground is the oldest underground railway network in the world.",
+      "London is the first city to host the Summer Olympics three times.",
+      "Big Ben is the name of the bell, not the clock tower."
+    ]
+  },
+  {
+    "city_name": "Moscow",
+    "facts": [
+      "The Moscow Metro is one of the most beautiful and busiest metro systems in the world.",
+      "The Kremlin is the largest active fortress in Europe.",
+      "Moscow is home to the most billionaires of any city in the world."
+    ]
+  },
+  {
+    "city_name": "Shanghai",
+    "facts": [
+      "Shanghai has the world's fastest commercial train, the Maglev.",
+      "The city's name means 'Upon the Sea'.",
+      "It has the world's longest metro system."
+    ]
+  },
+  {
+    "city_name": "Mumbai",
+    "facts": [
+      "Mumbai is the heart of India's 'Bollywood' film industry.",
+      "It is built on what was once an archipelago of seven islands.",
+      "The city is home to Asia's first stock exchange."
+    ]
+  },
+  {
+    "city_name": "Mexico City",
+    "facts": [
+      "Mexico City is built on the ruins of the ancient Aztec city of Tenochtitlan.",
+      "It has the most museums of any city in the world.",
+      "The city is sinking at a rate of several inches per year."
+    ]
+  },
+  {
+    "city_name": "Beijing",
+    "facts": [
+      "Beijing is home to the Forbidden City, the largest imperial palace in the world.",
+      "It was the host of the 2008 Summer Olympics and 2022 Winter Olympics.",
+      "The city's name means 'Northern Capital'."
+    ]
+  },
+  {
+    "city_name": "Lagos",
+    "facts": [
+      "Lagos is the largest city in Africa by population.",
+      "It is the center of 'Nollywood', Nigeria's booming film industry.",
+      "The city is made up of a mainland and a series of islands."
+    ]
+  },
+  {
+    "city_name": "Karachi",
+    "facts": [
+      "Karachi was the original capital of Pakistan after independence.",
+      "It is the financial and commercial capital of Pakistan.",
+      "The city is located on the Arabian Sea coastline."
+    ]
+  },
+  {
+    "city_name": "Dhaka",
+    "facts": [
+      "Dhaka is known as the 'Rickshaw Capital of the World'.",
+      "It is one of the most densely populated cities in the world.",
+      "The city is home to the historic Lalbagh Fort."
+    ]
+  },
+  {
+    "city_name": "Manila",
+    "facts": [
+      "Manila is the most densely populated city proper in the world.",
+      "It is home to the oldest Chinatown in the world, Binondo.",
+      "The historic walled city of Intramuros is located in the heart of Manila."
+    ]
+  },
+  {
+    "city_name": "Kolkata",
+    "facts": [
+      "Kolkata was the capital of British India until 1911.",
+      "It is known as the 'City of Joy' and the 'Cultural Capital of India'.",
+      "The Howrah Bridge is one of the busiest cantilever bridges in the world."
+    ]
+  },
+  {
+    "city_name": "Jakarta",
+    "facts": [
+      "Jakarta is the capital of Indonesia and the largest city in Southeast Asia.",
+      "The city is sinking at an alarming rate, making it the world's fastest-sinking city.",
+      "It is a major hub for the 'Javanese' culture."
+    ]
+  },
+  {
+    "city_name": "Lima",
+    "facts": [
+      "Lima is the second-largest desert city in the world, after Cairo.",
+      "It was founded by the Spanish conquistador Francisco Pizarro in 1535.",
+      "The city is known as the 'Gastronomical Capital of the Americas'."
+    ]
+  },
+  {
+    "city_name": "Tehran",
+    "facts": [
+      "Tehran is the capital of Iran and the largest city in Western Asia.",
+      "The Azadi Tower is a famous landmark and symbol of the city.",
+      "Tehran has a large network of highways, but also suffers from severe traffic congestion."
+    ]
+  },
+  {
+    "city_name": "Ho Chi Minh City",
+    "facts": [
+      "Ho Chi Minh City was formerly known as Saigon.",
+      "It is the largest city in Vietnam by population.",
+      "The city is famous for its vast network of underground tunnels used during the Vietnam War."
+    ]
+  },
+  {
+    "city_name": "Bogotá",
+    "facts": [
+      "Bogotá is one of the highest-altitude major cities in the world, at 2,640 meters.",
+      "It is known as the 'Athens of South America' due to its numerous universities and libraries.",
+      "The city has an extensive network of bicycle paths called 'Ciclorutas'."
+    ]
+  },
+  {
+    "city_name": "Hong Kong",
+    "facts": [
+      "Hong Kong has more skyscrapers than any other city in the world.",
+      "The city is one of the world's leading financial centers.",
+      "It is famous for its deep natural harbor and expansive skyline."
+    ]
+  },
+  {
+    "city_name": "Baghdad",
+    "facts": [
+      "Baghdad was once the largest city in the world and a center of learning during the Islamic Golden Age.",
+      "The city's name is of Persian origin and means 'God's gift'.",
+      "It is located on the Tigris River."
+    ]
+  },
+  {
+    "city_name": "Hanoi",
+    "facts": [
+      "Hanoi is the capital of Vietnam and the country's second-largest city.",
+      "The city is known for its French colonial architecture and rich food culture.",
+      "The Hoan Kiem Lake is a historic and cultural centerpiece of the city."
+    ]
+  },
+  {
+    "city_name": "Riyadh",
+    "facts": [
+      "Riyadh is the capital and largest city of Saudi Arabia.",
+      "The city has experienced rapid growth in recent decades due to oil wealth.",
+      "The Kingdom Centre, with its distinctive sky bridge, is a major landmark."
+    ]
+  },
+  {
+    "city_name": "Santiago",
+    "facts": [
+      "Santiago is the capital and largest city of Chile.",
+      "The city is located in a valley surrounded by the Andes and the Chilean Coast Range.",
+      "It is the cultural, political, and financial center of Chile."
+    ]
+  },
+  {
+    "city_name": "Madrid",
+    "facts": [
+      "Madrid is the capital and most populous city of Spain.",
+      "It is home to the Royal Palace of Madrid, the official residence of the Spanish Royal Family.",
+      "The city is famous for its vibrant nightlife and culinary scene."
+    ]
+  },
+  {
+    "city_name": "Vienna",
+    "facts": [
+      "Vienna is known as the 'City of Music' due to its rich musical legacy.",
+      "It is home to the world's oldest zoo, the Tiergarten Schönbrunn.",
+      "The city has consistently been ranked as one of the most livable in the world."
+    ]
+  },
+  {
+    "city_name": "Lisbon",
+    "facts": [
+      "Lisbon is one of the oldest cities in Western Europe, predating other modern European capitals such as London and Paris.",
+      "It is famous for its historic yellow trams, which navigate the steep hills of the city.",
+      "The Belém Tower is a UNESCO World Heritage site and a symbol of the Age of Discoveries."
+    ]
+  },
+  {
+    "city_name": "Prague",
+    "facts": [
+      "Prague is nicknamed the 'City of a Hundred Spires'.",
+      "The Prague Castle is the largest ancient castle in the world.",
+      "The Charles Bridge is adorned with 30 statues of saints."
+    ]
+  },
+  {
+    "city_name": "Athens",
+    "facts": [
+      "Athens is one of the oldest cities in the world, with a recorded history of over 3,400 years.",
+      "It is the birthplace of democracy, Western philosophy, and the Olympic Games.",
+      "The Acropolis, a citadel on a rocky outcrop, is a symbol of the city and Western civilization."
+    ]
+  },
+  {
+    "city_name": "Dublin",
+    "facts": [
+      "Dublin is home to the Guinness Storehouse, a major tourist attraction.",
+      "The city's name comes from the Irish 'Dubh Linn', meaning 'black pool'.",
+      "Phoenix Park in Dublin is one of the largest enclosed recreational spaces within any European capital city."
+    ]
+  },
+  {
+    "city_name": "Stockholm",
+    "facts": [
+      "Stockholm is built on 14 islands connected by more than 50 bridges.",
+      "It is home to the Nobel Prize ceremony.",
+      "The Stockholm metro is known as the 'world's longest art gallery' due to its decorated stations."
+    ]
+  },
+  {
+    "city_name": "Copenhagen",
+    "facts": [
+      "Copenhagen is considered one of the most bicycle-friendly cities in the world.",
+      "The Little Mermaid statue is a famous icon of the city, inspired by the Hans Christian Andersen fairy tale.",
+      "Tivoli Gardens, one of the world's oldest amusement parks, is located in the heart of the city."
+    ]
+  },
+  {
+    "city_name": "Oslo",
+    "facts": [
+      "Oslo is the capital and most populous city of Norway.",
+      "It is home to the Viking Ship Museum, which displays preserved Viking ships.",
+      "The city is surrounded by forests and the sea, offering easy access to nature."
+    ]
+  },
+  {
+    "city_name": "Helsinki",
+    "facts": [
+      "Helsinki is the capital and largest city of Finland.",
+      "It is known as the 'Daughter of the Baltic'.",
+      "The city has a unique design district, showcasing Finnish design."
+    ]
+
+  },
+  {
+    "city_name": "Warsaw",
+    "facts": [
+      "Warsaw is the capital and largest city of Poland.",
+      "The city was almost completely destroyed during World War II and has been extensively rebuilt.",
+      "The Old Town of Warsaw is a UNESCO World Heritage site, recognized for its meticulous reconstruction."
+    ]
+  },
+  {
+    "city_name": "Budapest",
+    "facts": [
+      "Budapest is known as the 'City of Spas' due to its numerous thermal baths.",
+      "The Hungarian Parliament Building is the third-largest parliament building in the world.",
+      "The city is split by the Danube River into two parts: Buda and Pest."
+    ]
+  },
+  {
+    "city_name": "Brussels",
+    "facts": [
+      "Brussels is considered the de facto capital of the European Union.",
+      "It is famous for its chocolate, waffles, and beer.",
+      "The Atomium, a giant model of an iron crystal, is a famous landmark."
+    ]
+  },
+  {
+    "city_name": "Zurich",
+    "facts": [
+      "Zurich is the largest city in Switzerland and a global center for banking and finance.",
+      "It has been ranked as one of the cities with the highest quality of life in the world.",
+      "The city is located at the northern tip of Lake Zurich."
+    ]
+  },
+  {
+    "city_name": "Geneva",
+    "facts": [
+      "Geneva is a global hub for diplomacy and banking, hosting the headquarters of many international organizations.",
+      "The Jet d'Eau is a large fountain in Lake Geneva and one of the city's most famous landmarks.",
+      "The city is located in the French-speaking part of Switzerland."
+    ]
+  },
+  {
+    "city_name": "Auckland",
+    "facts": [
+      "Auckland is the largest city in New Zealand, with a population of over 1.6 million.",
+      "It is known as the 'City of Sails' due to the large number of yachts in its harbor.",
+      "The Sky Tower is the tallest freestanding structure in the Southern Hemisphere."
+    ]
+  },
+  {
+    "city_name": "Melbourne",
+    "facts": [
+      "Melbourne is often referred to as the 'sporting capital of the world'.",
+      "It is known for its vibrant street art and laneway culture.",
+      "The city has the largest tram network in the world."
+    ]
+  },
+  {
+    "city_name": "Vancouver",
+    "facts": [
+      "Vancouver is consistently named as one of the top five worldwide cities for livability and quality of life.",
+      "It is a major filming location, often referred to as 'Hollywood North'.",
+      "Stanley Park, a large urban park, is one of the city's most famous landmarks."
+    ]
+  },
+  {
+    "city_name": "Montreal",
+    "facts": [
+      "Montreal is the second-largest French-speaking city in the world, after Paris.",
+      "It is known for its poutine, a dish of French fries, cheese curds, and gravy.",
+      "The city hosts the Just for Laughs comedy festival, the largest of its kind in the world."
+    ]
+  },
+  {
+    "city_name": "Chicago",
+    "facts": [
+      "Chicago is known as the 'Windy City'.",
+      "It is the birthplace of the skyscraper.",
+      "The city is famous for its deep-dish pizza."
+    ]
+  },
+  {
+    "city_name": "Los Angeles",
+    "facts": [
+      "Los Angeles is the center of the American film and television industry, 'Hollywood'.",
+      "The city's name means 'The Angels' in Spanish.",
+      "It is a city with a diverse geography, including mountains, valleys, forests, and the Pacific Ocean."
+    ]
+  },
+  {
+    "city_name": "San Francisco",
+    "facts": [
+      "San Francisco is famous for the Golden Gate Bridge, a symbol of the city.",
+      "It is known for its historic cable cars, the last manually operated cable car system in the world.",
+      "Alcatraz Island, a former notorious federal prison, is a popular tourist attraction."
+    ]
+  },
+  {
+    "city_name": "Miami",
+    "facts": [
+      "Miami is a major center for international trade and finance.",
+      "It is known for its vibrant nightlife, beaches, and Art Deco architecture.",
+      "The city has a large Cuban-American population."
+    ]
+  },
+  {
+    "city_name": "Las Vegas",
+    "facts": [
+      "Las Vegas is known as the 'Entertainment Capital of the World'.",
+      "It is famous for its casinos, hotels, and live entertainment.",
+      "The Las Vegas Strip is a world-renowned destination."
+    ]
+  },
+  {
+    "city_name": "Washington, D.C.",
+    "facts": [
+      "Washington, D.C. is the capital of the United States.",
+      "It is home to the White House, the Capitol Building, and the Supreme Court.",
+      "The city has numerous free museums, including the Smithsonian Institution."
+    ]
+  },
+  {
+    "city_name": "Boston",
+    "facts": [
+      "Boston is one of the oldest cities in the United States.",
+      "It played a key role in the American Revolution.",
+      "The city is home to prestigious universities like Harvard and MIT."
+    ]
+  },
+  {
+    "city_name": "Honolulu",
+    "facts": [
+      "Honolulu is the capital and largest city of the U.S. state of Hawaii.",
+      "It is a major hub for international business, finance, hospitality, and military defense in both the state and Oceania.",
+      "Waikiki Beach is a world-famous tourist destination."
+    ]
+  },
+  {
+    "city_name": "New Delhi",
+    "facts": [
+      "New Delhi is the capital of India and a part of the city of Delhi.",
+      "It was designed by British architects Edwin Lutyens and Herbert Baker.",
+      "The city is home to many historical sites and government buildings."
+    ]
+  },
+  {
+    "city_name": "Bengaluru",
+    "facts": [
+      "Bengaluru is known as the 'Silicon Valley of India'.",
+      "It is a major center for India's high-tech industry.",
+      "The city is also known as the 'Garden City' due to its many parks and green spaces."
+    ]
+  },
+  {
+    "city_name": "Chennai",
+    "facts": [
+      "Chennai is a major center for the automobile industry in India.",
+      "It is also a major hub for medical tourism.",
+      "Marina Beach in Chennai is one of the longest urban beaches in the world."
+    ]
+  },
+  {
+    "city_name": "Hyderabad",
+    "facts": [
+      "Hyderabad is known as the 'City of Pearls'.",
+      "It is a major center for the technology industry in India.",
+      "The Charminar is a famous landmark and symbol of the city."
+    ]
+  },
+  {
+    "city_name": "Ahmedabad",
+    "facts": [
+      "Ahmedabad was the former capital of the state of Gujarat.",
+      "It is known for its rich architectural heritage and textile industry.",
+      "The city was declared a UNESCO World Heritage City in 2017."
+    ]
+  },
+  {
+    "city_name": "Pune",
+    "facts": [
+      "Pune is known as the 'Oxford of the East' due to its numerous educational institutions.",
+      "It is a major hub for the automobile and manufacturing industries.",
+      "The city is also a major center for the IT industry."
+    ]
+  },
+  {
+    "city_name": "Jaipur",
+    "facts": [
+      "Jaipur is known as the 'Pink City' due to the color of its buildings.",
+      "It is a part of the 'Golden Triangle' tourist circuit, along with Delhi and Agra.",
+      "The Hawa Mahal, or 'Palace of Winds', is a famous landmark."
+    ]
+  },
+  {
+    "city_name": "Agra",
+    "facts": [
+      "Agra is home to the Taj Mahal, one of the Seven Wonders of the World.",
+      "It was the capital of the Mughal Empire in the 16th and 17th centuries.",
+      "The city is also home to two other UNESCO World Heritage sites: the Agra Fort and Fatehpur Sikri."
+    ]
+  },
+  {
+    "city_name": "Mecca",
+    "facts": [
+      "Mecca is the holiest city in Islam.",
+      "It is the site of the annual Hajj pilgrimage, which is obligatory for all able-bodied Muslims.",
+      "The Kaaba, a cube-shaped building, is the most sacred site in Islam."
+    ]
+  },
+  {
+    "city_name": "Medina",
+    "facts": [
+      "Medina is the second-holiest city in Islam, after Mecca.",
+      "It is the burial place of the Islamic prophet Muhammad.",
+      "The city is home to the Al-Masjid an-Nabawi, or 'the Prophet's Mosque'."
+    ]
+  },
+  {
+    "city_name": "Jerusalem",
+    "facts": [
+      "Jerusalem is a holy city for three major Abrahamic religions: Judaism, Christianity, and Islam.",
+      "The Old City is a UNESCO World Heritage site and is divided into four quarters: the Jewish, Christian, Muslim, and Armenian Quarters.",
+      "The Western Wall, the Church of the Holy Sepulchre, and the Dome of the Rock are among the city's most sacred sites."
+    ]
+  },
+  {
+    "city_name": "Tel Aviv",
+    "facts": [
+      "Tel Aviv is a major economic and technological center in Israel.",
+      "It is known for its vibrant nightlife and 24-hour culture.",
+      "The 'White City' of Tel Aviv is a UNESCO World Heritage site for its large concentration of Bauhaus architecture."
+    ]
+  },
+  {
+    "city_name": "Beirut",
+    "facts": [
+      "Beirut is the capital and largest city of Lebanon.",
+      "It is known for its rich history, cultural diversity, and vibrant nightlife.",
+      "The city has been rebuilt several times after being destroyed by wars and natural disasters."
+    ]
+  },
+  {
+    "city_name": "Amman",
+    "facts": [
+      "Amman is the capital and largest city of Jordan.",
+      "It is one of the oldest continuously inhabited cities in the world.",
+      "The city is built on seven hills, like Rome."
+    ]
+  },
+  {
+    "city_name": "Doha",
+    "facts": [
+      "Doha is the capital and most populous city of Qatar.",
+      "It is a major financial center in the Middle East.",
+      "The city is known for its modern architecture, including the Museum of Islamic Art."
+    ]
+  },
+  {
+    "city_name": "Abu Dhabi",
+    "facts": [
+      "Abu Dhabi is the capital and the second-most populous city of the United Arab Emirates.",
+      "It is the country's center of politics and industry.",
+      "The Sheikh Zayed Grand Mosque is a major landmark and one of the largest mosques in the world."
+    ]
+  },
+  {
+    "city_name": "Muscat",
+    "facts": [
+      "Muscat is the capital and largest city of Oman.",
+      "It is known for its beautiful natural harbor and traditional architecture.",
+      "The Sultan Qaboos Grand Mosque is a stunning example of modern Islamic architecture."
+    ]
+  },
+  {
+    "city_name": "Kuwait City",
+    "facts": [
+      "Kuwait City is the capital and largest city of Kuwait.",
+      "It is a major political, cultural, and economic center in the country.",
+      "The Kuwait Towers are a famous landmark and symbol of the city."
+    ]
+  },
+  {
+    "city_name": "Manama",
+    "facts": [
+      "Manama is the capital and largest city of Bahrain.",
+      "It is an important financial hub in the Middle East.",
+      "The Bahrain World Trade Center is known for its innovative use of wind turbines."
+    ]
+  },
+  {
+    "city_name": "Nairobi",
+    "facts": [
+      "Nairobi is the capital and largest city of Kenya.",
+      "It is the only capital city in the world to have a national park within its boundaries.",
+      "The city is a major hub for business and tourism in East Africa."
+    ]
+  },
+  {
+    "city_name": "Addis Ababa",
+    "facts": [
+      "Addis Ababa is the capital and largest city of Ethiopia.",
+      "It is the diplomatic capital of Africa, hosting the headquarters of the African Union.",
+      "The city's name means 'new flower' in Amharic."
+    ]
+  },
+  {
+    "city_name": "Johannesburg",
+    "facts": [
+      "Johannesburg is the largest city in South Africa.",
+      "It is the economic and financial hub of the country.",
+      "The city is located on the Witwatersrand, a range of hills rich in gold."
+    ]
+  },
+  {
+    "city_name": "Accra",
+    "facts": [
+      "Accra is the capital and largest city of Ghana.",
+      "It is a major economic and administrative hub in the country.",
+      "The city is known for its vibrant markets and nightlife."
+    ]
+  },
+  {
+    "city_name": "Dakar",
+    "facts": [
+      "Dakar is the capital and largest city of Senegal.",
+      "It is the westernmost city on the African mainland.",
+      "The city is famous as the finishing point of the Paris-Dakar Rally."
+    ]
+  },
+  {
+    "city_name": "Casablanca",
+    "facts": [
+      "Casablanca is the largest city in Morocco.",
+      "It is the economic and business center of the country.",
+      "The Hassan II Mosque is one of the largest mosques in the world and has the world's tallest minaret."
+    ]
+  },
+  {
+    "city_name": "Marrakech",
+    "facts": [
+      "Marrakech is a major economic center and tourist destination in Morocco.",
+      "It is known for its historic medina, a UNESCO World Heritage site.",
+      "Jemaa el-Fnaa is a famous square and marketplace in the medina."
+    ]
+  },
+  {
+    "city_name": "Tunis",
+    "facts": [
+      "Tunis is the capital and largest city of Tunisia.",
+      "The ruins of the ancient city of Carthage are located near Tunis.",
+      "The medina of Tunis is a UNESCO World Heritage site."
+    ]
+  },
+  {
+    "city_name": "Algiers",
+    "facts": [
+      "Algiers is the capital and largest city of Algeria.",
+      "It is known for its historic Casbah, a UNESCO World Heritage site.",
+      "The city is located on the Mediterranean coast."
+    ]
+  },
+  {
+    "city_name": "Panama City",
+    "facts": [
+      "Panama City is the capital and largest city of Panama.",
+      "It is located at the Pacific entrance of the Panama Canal.",
+      "The city is a major international banking center."
+    ]
+  },
+  {
+    "city_name": "San Jose",
+    "facts": [
+      "San Jose is the capital and largest city of Costa Rica.",
+      "It is located in the Central Valley region.",
+      "The city is known for its high quality of life and environmental performance."
+    ]
+  },
+  {
+    "city_name": "Havana",
+    "facts": [
+      "Havana is the capital and largest city of Cuba.",
+      "It is known for its historic architecture, classic American cars, and vibrant music scene.",
+      "Old Havana is a UNESCO World Heritage site."
+    ]
+  },
+  {
+    "city_name": "Kingston",
+    "facts": [
+      "Kingston is the capital and largest city of Jamaica.",
+      "It is the birthplace of reggae music.",
+      "The Bob Marley Museum is located in the city."
+    ]
+  },
+  {
+    "city_name": "San Juan",
+    "facts": [
+      "San Juan is the capital and largest city of Puerto Rico.",
+      "It is the oldest city under U.S. jurisdiction.",
+      "Old San Juan is a UNESCO World Heritage site."
+    ]
+  },
+  {
+    "city_name": "Guatemala City",
+    "facts": [
+      "Guatemala City is the capital and largest city of Guatemala.",
+      "It is the most populous city in Central America.",
+      "The city is located in a mountain valley."
+    ]
+  },
+  {
+    "city_name": "Quito",
+    "facts": [
+      "Quito is the capital of Ecuador and the highest official capital city in the world.",
+      "It is located on the equator, but at a high altitude, giving it a cool climate.",
+      "The historic center of Quito is a UNESCO World Heritage site."
+    ]
+  },
+  {
+    "city_name": "Caracas",
+    "facts": [
+      "Caracas is the capital and largest city of Venezuela.",
+      "It is located in a valley near the Caribbean coast.",
+      "The city is the cultural and economic center of the country."
+    ]
+  },
+  {
+    "city_name": "Montevideo",
+    "facts": [
+      "Montevideo is the capital and largest city of Uruguay.",
+      "It is consistently ranked as having the highest quality of life of any city in Latin America.",
+      "The city is known for its rich cultural scene and historic architecture."
+    ]
+  },
+  {
+    "city_name": "Asunción",
+    "facts": [
+      "Asunción is the capital and largest city of Paraguay.",
+      "It is one of the oldest cities in South America.",
+      "The city is located on the Paraguay River."
+    ]
+  },
+  {
+    "city_name": "La Paz",
+    "facts": [
+      "La Paz is the administrative capital of Bolivia and the highest capital city in the world.",
+      "It is located in a canyon created by the Choqueyapu River.",
+      "The city is known for its unique markets, including the Witches' Market."
+    ]
+  },
+  {
+    "city_name": "Kuala Lumpur",
+    "facts": [
+      "Kuala Lumpur is the capital and largest city of Malaysia.",
+      "The Petronas Towers are the tallest twin towers in the world.",
+      "The city is a major center for Islamic finance."
+    ]
+  },
+  {
+    "city_name": "Wellington",
+    "facts": [
+      "Wellington is the capital of New Zealand and the world's southernmost capital city.",
+      "It is known for its vibrant arts scene and film industry.",
+      "The city is nicknamed 'Windy Wellington' due to its high winds."
+    ]
+  },
+  {
+    "city_name": "Canberra",
+    "facts": [
+      "Canberra is the capital of Australia.",
+      "It is a planned city, designed by the American architect Walter Burley Griffin.",
+      "The city is home to many national institutions, including the Parliament House and the Australian War Memorial."
+    ]
+
+  },
+  {
+    "city_name": "Ottawa",
+    "facts": [
+      "Ottawa is the capital of Canada.",
+      "It is home to the Parliament of Canada and many national museums.",
+      "The Rideau Canal, a UNESCO World Heritage site, becomes the world's largest skating rink in winter."
+    ]
+  },
+  {
+    "city_name": "Brasília",
+    "facts": [
+      "Brasília is the capital of Brazil.",
+      "It is a planned city, designed by the architect Oscar Niemeyer.",
+      "The city is a UNESCO World Heritage site for its modern architecture."
+    ]
+  },
+  {
+    "city_name": "Ankara",
+    "facts": [
+      "Ankara is the capital of Turkey.",
+      "It is the country's second-largest city, after Istanbul.",
+      "The city is home to the Mausoleum of Mustafa Kemal Atatürk, the founder of the Republic of Turkey."
+    ]
+  },
+  {
+    "city_name": "Pretoria",
+    "facts": [
+      "Pretoria is one of South Africa's three capital cities, serving as the executive (administrative) capital.",
+      "It is known as the 'Jacaranda City' due to the thousands of jacaranda trees that bloom in spring.",
+      "The Union Buildings, the seat of the South African government, are located in Pretoria."
+    ]
+  },
+  {
+    "city_name": "Abuja",
+    "facts": [
+      "Abuja is the capital of Nigeria.",
+      "It is a planned city, built in the 1980s.",
+      "The city is located in the center of the country."
+    ]
+  }
+]

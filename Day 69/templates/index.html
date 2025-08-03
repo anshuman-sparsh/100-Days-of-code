@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Random City Generator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>🌍 Random City Generator</h1>
+
+        {% if city %}
+            <div class="city-box">
+                <h2>{{ city }}</h2>
+                <p class="fact">Fun Fact: {{ fact }}</p>
+            </div>
+        {% endif %}
+
+        <form method="post">
+            <button type="submit">Generate Another</button>
+        </form>
+    </div>
+</body>
+</html>
