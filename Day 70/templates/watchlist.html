@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Watchlist</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>📺 My Watchlist</h1>
+        <div class="movie-list">
+            {% if movies %}
+                <ul>
+                    {% for movie in movies %}
+                        <li>{{ movie }}</li>
+                    {% endfor %}
+                </ul>
+            {% else %}
+                <p>Your watchlist is empty. Add a movie from the home page!</p>
+            {% endif %}
+        </div>
+        <a href="{{ url_for('index') }}" class="btn-back">← Back to Home</a>
+    </div>
+</body>
+</html>
