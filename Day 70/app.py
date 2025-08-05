@@ -4,8 +4,8 @@ import os
 app = Flask(__name__)
 
 # File paths
-WATCHLIST_FILE = 'data/watchlist.txt'
-WATCHEDLIST_FILE = 'data/watchedlist.txt'
+WATCHLIST_FILE = 'Day 70/data/watchlist.txt'
+WATCHEDLIST_FILE = 'Day 70/data/watchedlist.txt'
 
 # Ensure data folder exists
 os.makedirs('data', exist_ok=True)
