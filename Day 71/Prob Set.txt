@@ -1,0 +1,43 @@
+📚 Topic: Python
+🧩 Subtopic: Introduction to SQLite – Creating, Reading, Inserting Data
+Here’s your plan for Day 71:
+
+🔹 Key Concepts to Learn
+What is SQLite and why use it?
+Connecting a database using sqlite3
+Creating tables with SQL
+Inserting and retrieving data
+Using Python to interact with .db files
+
+
+
+Problems (in Python):
+1. Create a Student Database
+Create a table students with fields: id, name, age, major.
+Insert 3 records and fetch all data.
+
+
+2. Insert Multiple Records
+Write a script that inserts 5 rows using executemany().
+
+
+
+3. Search Student by Name
+Take input and return matching student records.
+
+
+
+4. Update a Student’s Major
+Allow updating a student’s major by ID.
+
+
+
+5. Delete a Record
+Delete a student from the table by ID.
+
+
+
+🛠 Tools to Use:
+sqlite3 (Python built-in module)
+SQL commands: CREATE, INSERT, SELECT, UPDATE, DELETE
+Basic CLI or input() for interaction
