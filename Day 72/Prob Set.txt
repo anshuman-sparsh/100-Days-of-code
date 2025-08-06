@@ -1,0 +1,29 @@
+📌 Topic: Python
+📚 Subtopic: SQLite – Queries & Operations
+
+
+
+🧪 Tasks for Day 72:
+1. Select Students by Major
+Write a Python function that takes a major (e.g., "CS") as input and prints all students in that major.
+
+
+
+2. Order Students by Age
+Fetch all students from your database and display them sorted by age in ascending order.
+
+
+
+3. Count Total Students
+Use SQL COUNT() to find and print the total number of students in your table.
+
+
+
+4. Get the Oldest Student
+Use SQL MAX() to find the student with the highest age and display their details.
+
+
+
+5. Update Age by Name
+Take a student’s name as input and update their age to a new value using UPDATE.
+
