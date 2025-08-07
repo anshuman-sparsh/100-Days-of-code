@@ -1,0 +1,41 @@
+🚀 Day 73 – Mini Project Time!
+📌 Topic: Full Stack Web Development
+📚 Subtopic: Flask + SQLite Integration
+
+
+
+🎯 Mini Project: Task Manager App (Basic)
+Build a simple Task Manager Web App where you can:
+Add new tasks ✅
+View all tasks 📝
+Mark tasks as completed ✔️
+Delete tasks ❌
+
+
+
+📁 Project Requirements:
+Use Flask for the web server and routing
+Use SQLite for storing tasks (fields: id, title, status)
+Create a clean HTML interface (with simple basic CSS)
+CRUD Operations:
+Create: Add a task
+Read: View all tasks
+Update: Mark as completed
+Delete: Remove a task
+
+
+
+💡 Bonus Suggestions:
+Use Jinja templating for rendering tasks
+Use status as "pending" or "done" in the database
+Make a form to add tasks
+
+
+
+📂 Suggested File Structure:
+Day 73/
+├── app.py
+├── templates/
+│   └── index.html
+├── static/ (simple css)
+└── tasks.db
