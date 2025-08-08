@@ -1,0 +1,45 @@
+🎯 Goal for Today:
+Build a Micro-Blog where users can:
+✍️ Write (Create) a blog post (title + content)
+📄 Read all blog posts on the home page
+No database yet — store posts in memory using a Python list (to simulate the flow).
+
+
+
+📁 Project Structure:
+micro_blog/
+├── app.py
+├── templates/
+│   ├── index.html     ← Shows all posts
+│   └── create.html    ← Form to submit a new post
+
+
+📌 Features to Implement Today:
+Homepage (/)
+Display all blog posts
+Loop over a list of posts using Jinja2 ({% for post in posts %})
+
+
+
+Create Page (/create)
+Form to submit new blog post: Title & Content
+On form submit (POST), append the post to a list
+Redirect back to home to view the new post
+
+
+
+Post Structure
+Use a dictionary for each post:
+{"title": "First Post", "content": "Hello world!"}
+
+
+Basic HTML Only
+No CSS needed today
+Use simple and semantic HTML with form elements
+
+
+
+💡 Tips:
+Store posts in a global posts = [] list in app.py
+Use redirect() and url_for() after a successful post
+Practice writing clean and minimal Jinja2 templates

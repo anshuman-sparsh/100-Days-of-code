@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Create New Post</title>
+</head>
+
+<body>
+    <h1>Create a New Post</h1>
+
+    <form method="POST" action="{{ url_for('create') }}">
+        <div>
+            <label for="title">Title</label>
+            <br>
+            <input type="text" name="title" id="title" size="40" required>
+        </div>
+        <br>
+        <div>
+            <label for="content">Content</label>
+            <br>
+            <textarea name="content" id="content" rows="8" cols="40" required></textarea>
+        </div>
+        <br>
+        <button type="submit">Submit Post</button>
+    </form>
+
+    <hr>
+    <p><a href="{{ url_for('index') }}">Back to Home</a></p>
+
+</body>
+
+</html>
