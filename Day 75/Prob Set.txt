@@ -1,0 +1,54 @@
+Day 75 – Micro-Blog App (Part 2: Update + Delete + DB)
+Topic: Full Stack Web Development
+Subtopic: Flask + SQLite + CSS – Micro-Blogging (Update & Delete)
+🛠 Project Type: Mini Project (Final Part)
+
+🎯 Goal for Today:
+Add the Update and Delete features to your Micro-Blog and switch from in-memory storage to SQLite database, along with basic styling.
+
+📁 Project Structure:
+Day 75/
+├── app.py
+├── blog.db
+├── templates/
+│   ├── index.html      ← List posts + Update/Delete buttons
+│   ├── create.html     ← Form to add new post
+│   └── update.html     ← Form to edit existing post
+└── static/
+    └── style.css       ← Basic styling
+
+
+🧪 Tasks for Day 75:
+1. Set Up SQLite DB
+
+Create a posts table:
+id (INTEGER PRIMARY KEY AUTOINCREMENT),
+title (TEXT),
+content (TEXT)
+
+
+2. Modify Create Feature
+Instead of appending to a list, insert into SQLite.
+
+3. Read from DB
+Fetch all posts from SQLite for the homepage.
+
+4. Update Feature
+Add an Edit button next to each post.
+Route: /update/<id> → show form pre-filled with existing data.
+On submit: UPDATE the record in SQLite.
+
+5. Delete Feature
+Add a Delete button next to each post.
+Route: /delete/<id> → delete the record from SQLite, then redirect home.
+
+6. Basic CSS Styling
+Style the forms and blog list.
+Make buttons look distinct (Add, Edit, Delete).
+Keep it minimal but neat.
+
+
+
+💡 Bonus:
+Add a timestamp column to track when a post was created/updated.
+Use flash() messages for “Post added”, “Post updated”, “Post deleted”.
