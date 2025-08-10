@@ -1,0 +1,29 @@
+🚀 Day 76 – Advanced Python: Context Managers
+📌 Topic: Python
+📚 Subtopic: Context Managers (with statement)
+
+
+
+
+🧪 Problems for Day 76:
+1. Log Writer Context Manager
+Create a context manager (using with open()) that writes logs to a file log.txt.
+Every time the block runs, it should:
+   Append a timestamp (YYYY-MM-DD HH:MM:SS)
+   Append the given log message(s)
+   This way, any logging inside the with block is automatically time-stamped and saved.
+
+
+
+2. Custom Context Manager (Class)
+Build a context manager class Timer that prints how long a block of code takes to execute.
+
+
+
+3. Custom Context Manager (contextlib)
+Use @contextmanager from contextlib to create a context manager suppress_errors that suppresses any exceptions inside the block and prints "Error suppressed".
+
+
+
+4. Database Connection Manager
+Create a context manager for SQLite connections that automatically opens the connection and closes it after the block finishes, even if an error occurs.
