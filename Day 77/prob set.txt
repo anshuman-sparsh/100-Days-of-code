@@ -1,0 +1,40 @@
+🚀 Day 77 – Flask + JavaScript Integration (Fun Mini Apps)
+📌 Topic: Full Stack Web Development
+📚 Subtopic: Flask with JavaScript (Frontend Interactivity)
+
+
+
+🧪 Tasks for Day 77:
+Mini App 1 – Simple Poll App 👍👎
+Concept: A page showing a poll question with two vote buttons (e.g., “Cats” vs. “Dogs”).
+
+Flow:
+HTML shows buttons and current vote counts.
+When a button is clicked, JS sends a POST request to a Flask route /vote with the selected option.
+Flask updates the server-side vote count and returns the updated counts as JSON.
+JS updates the counts in the UI instantly without reloading.
+
+
+
+
+Mini App 2 – Color Palette Generator 🎨
+Concept: A “Generate” button that creates a set of 5 complementary random colors with HEX codes.
+
+Flow:
+JS calls a Flask route /palette via fetch() when the button is clicked.
+Flask generates 5 random HEX color codes and returns them in JSON.
+JS dynamically creates styled <div> elements for each color and displays the HEX codes.
+
+
+
+
+
+📂 Suggested Structure:
+Day 77/
+├── app.py
+├── templates/
+│   ├── poll.html
+│   └── palette.html
+├── static/
+│   ├── style.css
+│   └── script.js
