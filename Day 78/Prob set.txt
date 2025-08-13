@@ -1,0 +1,22 @@
+🚀 Day 78 – Python CLI Based Apps
+📌 Topic: Python
+📚 Subtopic: CLI Applications (Command Line Tools)
+
+
+🧪 Tasks for Day 78:
+1. To-Do List Manager 📝
+Add tasks, view tasks, and mark tasks as done.
+Store tasks in a local text file (tasks.txt) so they persist between runs.
+
+
+2. Currency Converter 💱
+Ask the user for an amount in INR and convert it to USD (use a fixed rate, e.g., 1 USD = 83 INR).
+Add option to convert USD → INR.
+
+
+3. Password Generator 🔑
+Take desired length from the user and generate a random password containing uppercase, lowercase, digits, and special characters.
+
+
+4. Weather CLI (Mock) ⛅
+Ask for a city name and return a random “mock” temperature and weather condition from predefined data.
