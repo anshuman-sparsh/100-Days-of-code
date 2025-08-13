@@ -1,0 +1,40 @@
+🚀 Day 79 – Type Hints
+📌 Topic: Python
+📚 Subtopic: Type Hints & Annotations
+
+
+
+🧪 Tasks for Day 79:
+1. Function Type Hints – Basic
+Write a function add_numbers(a: int, b: int) -> int that returns the sum.
+Add type hints for parameters and return type.
+Run mypy to check types.
+
+
+
+2. List & Dict Type Hints
+Write a function student_scores that takes a dictionary {str: int} of student names and marks, and returns the average score as a float.
+
+
+
+3. Optional & Union Types
+Write a function find_user that takes user_id: int and returns either a dict with user data or None if not found.
+
+
+
+4. Custom Class with Type Hints
+Create a Book class with attributes title: str, author: str, and pages: int.
+Write a function get_summary(book: Book) -> str that returns a formatted summary.
+
+
+
+
+5. Callable Type Hint
+Write a function apply_operation(numbers: list[int], op: Callable[[int], int]) -> list[int] that applies a function to each number.
+
+
+
+
+💡 Extra Tip:
+In VS Code, install the Pylance extension for great autocomplete + type hint support.
+If you have time, run mypy yourfile.py after each task to see static type checking in action.
