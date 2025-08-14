@@ -1,0 +1,27 @@
+🚀 Day 80 – FastAPI Basics & Path Operations
+📌 Topic: FastAPI
+📚 Subtopic: Path Operations + Automatic Docs
+
+
+🧪 Tasks for Day 80:
+
+1. Hello FastAPI 👋
+Create a basic FastAPI app with a GET endpoint / returning {"message": "Hello, FastAPI!"}.
+Run it with uvicorn main:app --reload and visit /docs to test.
+
+
+
+2. Dynamic Path Parameter 🧑
+Create a GET endpoint /greet/{name} that takes name from the URL and returns {"message": "Hello, <name>!"}.
+
+
+
+3. Query Parameters 🔍
+Create a GET endpoint /square that takes a query parameter number and returns its square.
+Example: /square?number=5 → { "result": 25 }
+
+
+
+4. POST Request with Body 📩
+Create a POST endpoint /user that accepts JSON with name: str and age: int, and returns a confirmation message.
+Test it in /docs.
