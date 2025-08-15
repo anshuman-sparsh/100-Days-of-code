@@ -1,0 +1,27 @@
+🚀 Day 81 – FastAPI Path & Query Parameter Validation
+📌 Topic: FastAPI
+📚 Subtopic: Parameter Handling & Validation
+
+
+
+🧪 Tasks for Day 81
+1. Path Parameter Validation
+Create a GET endpoint /items/{item_id} where item_id: int must be greater than 0 (use Path(..., gt=0)), return {"item_id": item_id}.
+
+
+
+2. Query Parameter with Constraints
+Create a GET endpoint /search with q: str = Query(..., min_length=3, max_length=20) and return a filtered result message.
+
+
+
+3. Optional Query Parameter with Default
+Create a GET endpoint /products that takes limit: int = Query(10, ge=1, le=50) and returns the number of products to display.
+
+
+
+4. Multiple Validations Together
+Create a GET endpoint /users/{user_id} with:
+user_id: int = Path(..., gt=0)
+verbose: bool = Query(False)
+Returns detailed info only if verbose=True.
