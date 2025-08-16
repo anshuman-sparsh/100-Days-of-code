@@ -1,0 +1,31 @@
+📚 Day 82 – Pydantic & FastAPI
+
+🔑 Key Concepts
+Why use Pydantic models for request/response validation
+Defining models with fields, types, and defaults
+Automatic data parsing & error handling
+Returning structured responses
+
+
+🧩 Problems 
+Task 1 – Basic User Model
+Create a User model with id: int, name: str, email: str.
+Build a POST /user endpoint that accepts JSON and returns the same data.
+
+
+
+Task 2 – Add Default & Optional Fields
+Extend User with is_active: bool = True and optional age: int | None = None.
+Test how FastAPI automatically fills defaults.
+
+
+
+Task 3 – Nested Models
+Create a Post model with title: str, content: str, and an embedded User.
+Build POST /post to accept this nested structure and return it back.
+
+
+
+Task 4 – Response Model
+Create Book model with title: str, author: str.
+Add a GET /book endpoint that returns a fixed Book object using response_model=Book.
