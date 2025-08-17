@@ -1,0 +1,16 @@
+✅ Day 83 – FastAPI Mini Projects
+
+Task 1 – Extend Micro-Blog with FastAPI API
+Take your existing Micro-Blog app (from Day 74 & 75).
+Add FastAPI endpoints to serve blog posts as JSON:
+/api/posts → Return all posts.
+/api/posts/{post_id} → Return a specific post.
+/api/recent → Return the last 3 posts.
+
+
+
+Task 2 – URL Shortener API 🔗 (Unique Mini Project)
+Build a FastAPI app that:
+/shorten → Accepts a long URL via POST, validates it with Pydantic, generates a unique short code, and stores mapping in SQLite.
+/s/{short_code} → Redirects to the original long URL.
+/all → Returns all stored short URLs with their original links.
