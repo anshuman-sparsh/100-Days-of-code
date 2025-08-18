@@ -1,0 +1,20 @@
+Day 84 – FastAPI Mini Project
+
+Task:
+🔗 Build a URL Shortener API
+Accept a long URL in a POST request.
+Return a short unique URL that maps to it.
+When visiting the short URL, redirect to the original long URL.
+Use SQLite to store mappings (id, original_url, short_code).
+Add validation with Pydantic to ensure the input is a proper URL.
+Keep it simple but functional.
+
+
+
+
+Key FastAPI features you’ll practice:
+Path & Query parameters
+Pydantic models for validation
+HTTPException for error handling
+responses.RedirectResponse for redirection
+SQLite integration
