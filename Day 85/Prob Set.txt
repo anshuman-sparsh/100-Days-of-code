@@ -1,0 +1,28 @@
+✅ Day 85 – Async/Await & asyncio
+
+📌 Topic: Advanced Python
+📚 Subtopic: Async/Await with asyncio
+🎯 Tasks:
+
+1. Basic async function 
+Write a simple async function say_hello() that prints "Hello, Async World!" after waiting 1 second using await asyncio.sleep().
+
+
+
+2. Run multiple async tasks
+Create two async functions, fetch_user() and fetch_orders(), each simulating work with asyncio.sleep(). Run them concurrently using asyncio.gather().
+
+
+
+3. Sequential vs Concurrent Execution 
+Write a script that fetches 3 "fake web pages" (fetch_page(url) with sleep).
+First run them sequentially, then run them with asyncio.gather().
+Compare and print the total time taken in both cases.
+
+
+
+4. Producer-Consumer with asyncio.Queue 
+Implement a small producer-consumer system:
+ Producer puts numbers (1–5) into an asyncio.Queue.
+ Consumer takes them and prints "Consumed: n".
+Run both concurrently until all numbers are processed.
