@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Habit Tracker</title>
+    <style>
+        body { font-family: sans-serif; max-width: 600px; margin: 40px auto; }
+        ul { list-style: none; padding: 0; }
+        li { display: flex; justify-content: space-between; align-items: center; padding: 10px; border-bottom: 1px solid #ccc; }
+        s { color: #888; }
+        button { border: 1px solid #ccc; padding: 5px 10px; border-radius: 4px; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <h1>Habit Tracker</h1>
+    <ul>
+        {% for index, habit in habits %}
+            <li>
+                <span>
+                    {% if habit.done %}
+                        <s>{{ habit.name }}</s>
+                    {% else %}
+                        {{ habit.name }}
+                    {% endif %}
+                </span>
+                
+                {% if habit.done %}
+                    <form action="{{ url_for('undo', habit_id=index) }}" method="post">
+                        <button type="submit">Undo</button>
+                    </form>
+                {% else %}
+                    <form action="{{ url_for('complete', habit_id=index) }}" method="post">
+                        <button type="submit">Complete</button>
+                    </form>
+                {% endif %}
+            </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

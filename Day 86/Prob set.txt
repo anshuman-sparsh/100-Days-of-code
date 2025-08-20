@@ -1,0 +1,16 @@
+Topic: Full Stack Mini-Project
+Subtopic: Habit Tracker: In-Memory Flask App
+
+Today's Tasks:
+Setup & In-Memory Data:
+In app.py, initialize your Flask app. Instead of a database, create a simple list of dictionaries to store your habits. For example:
+habits = [{"name": "Exercise", "done": False}, {"name": "Read", "done": False}]
+
+Render the Habit List:
+Create a main route / that passes your habits list to an index.html template. Use a Jinja2 loop in the HTML file to display each habit's name.
+
+Create Completion Forms:
+Next to each habit name in your template, add a small form with a "Complete" button. This form should send a POST request to a new route (e.g., /complete) when submitted, passing along the name or index of the habit.
+
+Handle Completion Logic:
+Create the /complete route in Flask that accepts POST requests. This route will find the specified habit in your list and update its "done" status to True. After updating, redirect back to the main / page to refresh the view.
