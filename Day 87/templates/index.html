@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Habit Tracker</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Habit Tracker</h1>
+
+        <div class="date-nav">
+            <a href="{{ url_for('view_date', date_string=prev_date.strftime('%Y-%m-%d')) }}">&laquo; Previous Day</a>
+            <h2>{{ view_date.strftime('%B %d, %Y') }}</h2>
+            <a href="{{ url_for('view_date', date_string=next_date.strftime('%Y-%m-%d')) }}">Next Day &raquo;</a>
+        </div>
+
+        <ul class="habit-list">
+            {% for habit in habits %}
+            <li class="habit-item">
+                <form class="delete-form" action="{{ url_for('delete_habit', habit_id=habit.id) }}" method="post">
+                    <input type="hidden" name="date" value="{{ view_date.strftime('%Y-%m-%d') }}">
+                    <button type="submit" class="btn-delete" title="Delete Habit">❌</button>
+                </form>
+                <span class="habit-name">{{ habit.name }}</span>
+                <form action="{{ url_for('toggle', habit_id=habit.id, date_string=view_date.strftime('%Y-%m-%d')) }}"
+                    method="post">
+                    {% if habit.id in completed_habit_ids %}
+                    <button type="submit" class="btn done">Done ✅</button>
+                    {% else %}
+                    <button type="submit" class="btn">Tick</button>
+                    {% endif %}
+                </form>
+            </li>
+            {% endfor %}
+        </ul>
+
+        <hr>
+
+        <form class="add-form" action="{{ url_for('add_habit') }}" method="post">
+            <h3>Add New Habit</h3>
+            <input type="hidden" name="date" value="{{ view_date.strftime('%Y-%m-%d') }}">
+            <div class="form-group">
+                <input type="text" name="habit_name" placeholder="e.g., Go for a walk" required>
+                <button type="submit" class="btn btn-primary">Add Habit</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

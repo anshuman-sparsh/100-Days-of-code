@@ -1,0 +1,30 @@
+Topic: Full Stack Mini-Project
+Subtopic: Habit Tracker: Full CRUD & Date-Based Logic
+
+Today's Tasks:
+
+1. Date-Specific Viewing:
+Modify your main route to handle dates. It should look like /view/<date_string> (e.g., /view/2025-08-21). The function should:
+Parse the date from the URL.
+If no date is provided, default to the current date.
+Fetch all habits and their completion status for that specific date.
+Add & Remove Habits (CRUD):
+
+
+
+2. Add: Create an HTML form on the page to add a new habit. This form should POST to a new /add_habit route, which saves the new habit to the database.
+Remove: Next to each habit, add a "Delete" button that submits to a /delete_habit/<habit_id> route to remove the habit from the database.
+
+
+
+3. Toggle Completion (Tick & Untick):
+Upgrade your completion logic. Create a single route /toggle/<habit_id>/<date_string>. When called, this route should:
+Check if a completion record exists for the habit on that date.
+If it exists, delete it (Untick).
+If it doesn't exist, create it (Tick).
+Redirect back to the view for that specific date.
+
+
+
+4. Date Navigation:
+On your main view page, add "Previous Day" and "Next Day" links. These links should point to the correct /view/<date> URLs, allowing the user to easily navigate through time.
