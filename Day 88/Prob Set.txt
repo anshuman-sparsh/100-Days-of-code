@@ -1,0 +1,28 @@
+Topic: API Development
+Subtopic: Implementing API Key Authentication
+Difficulty: Easy
+
+Today's Tasks:
+Here are 4 standalone problems to help you master the concept.
+
+1. Create an Unprotected "Quote" API:
+Build a simple Flask app. Create a dictionary of famous quotes. Make an endpoint /api/quote that returns a random quote from your dictionary in JSON format. At this stage, anyone can access it.
+
+
+
+2. Create an API Key Check Function:
+Define a dictionary at the top of your script to hold valid API keys, like VALID_KEYS = {"user1": "key123", "user2": "key456"}. Then, create a Python function that accepts a key from the request headers (e.g., X-API-Key) and returns True if the key is in your VALID_KEYS dictionary, and False otherwise.
+
+
+
+3. Protect the Quote Endpoint:
+Modify your /api/quote endpoint. Before returning a quote, it should now call your key-checking function.
+If the check returns True, send the quote as usual.
+If the check returns False, return a JSON error message {"error": "Invalid API Key"} with a 401 Unauthorized status code.
+
+
+
+4. Create a User-Specific Endpoint:
+Add a new endpoint /api/me. This endpoint should not only check if the API key is valid but also identify which user the key belongs to.
+If the key is valid, it should return a personalized welcome message, like {"message": "Welcome, user1!"}.
+If the key is invalid, it should return the same 401 error as before.
