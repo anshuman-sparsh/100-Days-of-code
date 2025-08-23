@@ -1,0 +1,16 @@
+Today's Tasks:
+You have two tasks today: first, to understand the core differences between the two frameworks by reading a detailed note, and second, to apply that knowledge by building a small app in both.
+
+1. The Comparison Note
+Add into FRAMEWORK_COMPARISON.md
+
+2. The Practice Question
+Your task is to build a simple "Number Analyzer" page twice: once using Flask, and once using FastAPI. This will give you a direct, hands-on feel for their differences.
+
+Required Functionality:
+1. The main page (/) must display a simple HTML form with an input field to enter a number and a submit button.
+2. The form should POST the number to an /analyze endpoint.
+3. The backend logic will determine if the number is Even or Odd.
+4. The result should be displayed on the same page or a results page, stating, for example, "The number 8 is Even."
+
+Implement this complete flow in two separate, small applications. This will highlight how each framework handles routing, templating, and form data.
