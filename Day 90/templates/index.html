@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Number Analyzer (Flask)</title>
+</head>
+<body>
+    <h1>Number Analyzer (Flask Version)</h1>
+    <form action="/" method="POST">
+        <label for="number">Enter a number:</label>
+        <input type="number" name="number" id="number" required>
+        <button type="submit">Analyze</button>
+    </form>
+    {% if result %}
+        <p style="font-weight: bold;">{{ result }}</p>
+    {% endif %}
+</body>
+</html>

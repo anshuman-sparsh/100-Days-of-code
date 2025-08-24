@@ -1,0 +1,60 @@
+Topic: Docker
+Subtopic: Containerizing a Python Web App
+
+
+Today's Tasks:
+Choose either your Flask or FastAPI "Number Analyzer" app from yesterday for this exercise. The steps are the same for both.
+
+1. Prepare Your Application:
+
+First, ensure you have Docker Desktop installed and running on your machine.
+
+In your project directory, create a requirements.txt file. Make sure it includes the web framework (Flask or FastAPI), uvicorn (if using FastAPI), and a production server like gunicorn. You can generate it by running pip freeze > requirements.txt in your activated virtual environment.
+
+
+
+
+2. Write the Dockerfile:
+In the root of your project, create a new file named Dockerfile (no extension). This file contains the instructions to build your application's image. Add the following content:
+
+Dockerfile
+
+# Use an official Python runtime as a parent image
+FROM python:3.9-slim
+
+# Set the working directory in the container
+WORKDIR /app
+
+# Copy the dependencies file and install them
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copy the rest of the application code into the container
+COPY . .
+
+# Command to run the app when the container starts
+# For Flask: CMD ["gunicorn", "--bind", "0.0.0.0:8000", "your_flask_app_file:app"]
+# For FastAPI: CMD ["gunicorn", "-k", "uvicorn.workers.UvicornWorker", "--bind", "0.0.0.0:8000", "your_fastapi_app_file:app"]
+Replace your_..._app_file with the actual name of your Python file (e.g., main.py).
+
+
+
+
+
+3. Build the Docker Image:
+Open your terminal in the project directory and run the docker build command. This will read your Dockerfile and create a local image.
+
+docker build -t number-analyzer .
+(The -t flag "tags" or names your image number-analyzer.)
+
+
+
+
+4. Run the Docker Container:
+Now, run a container from the image you just built. This command will start your app and map your local port 5000 to the container's port 8000.
+docker run -p 5000:8000 number-analyzer
+
+
+
+5. Verify It's Working:
+Open your web browser and navigate to http://localhost:5000. You should see your "Number Analyzer" application running, but this time it's being served from inside an isolated Docker container
