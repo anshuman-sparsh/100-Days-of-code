@@ -1,0 +1,51 @@
+Topic: Open Source & Python Skills
+Subtopic: Finding Contributions & Practical Coding
+Difficulty: Easy-Medium
+
+Today's Tasks:
+1. Open Source Exploration
+Understand "Good First Issues":
+Read up on the good first issue label. Project maintainers use this label to mark issues that are well-suited for newcomers.
+
+
+
+2. Use GitHub's Search:
+Go to GitHub and use the search bar to find issues with this label, specifically for Python projects.
+label:"good first issue" state:open language:python
+
+
+3. Read the Documentation:
+Select 2-3 projects that seem interesting. Find and read their README.md and CONTRIBUTING.md files to understand what the project is and how to contribute.
+
+
+
+4. Analyze a Potential Issue:
+From the projects you selected, pick one specific issue. Read its description and comments to see if it's a good fit for you.
+
+
+
+5. Express Your Interest (No Coding!):
+On the issue page you selected, write a short, polite comment expressing your interest in working on it and asking to be assigned.
+
+
+6. Code Cleanup: Remove Trailing Whitespace
+A common "good first issue" is helping to clean up a codebase. Your task is to write a Python script that reads a file, cleans it, and saves the result to a new file.
+Requirements:
+Read the content from an input.txt file.
+For each line, remove any trailing whitespace (spaces, tabs at the end of the line).
+Do not include any empty lines in the output.
+Write the cleaned lines to a new output.txt file.
+
+Example input.txt:
+Hello World   
+This is a test. 
+Another line with trailing spaces.        
+This line is clean.
+
+
+
+Expected output.txt:
+Hello World
+This is a test.
+Another line with trailing spaces.
+This line is clean.
