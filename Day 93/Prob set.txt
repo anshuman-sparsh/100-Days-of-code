@@ -1,0 +1,32 @@
+Topic: Open Source & Python Skills
+Subtopic: Understanding Contribution Guidelines
+
+
+Today's Tasks:
+Open Source Study
+Analyze CONTRIBUTING.md Files:
+Find three different Python open-source projects on GitHub (they can be the ones you found yesterday or new ones). For each project, locate and read their CONTRIBUTING.md file. As you read, look for and make a note of the following common sections:
+
+Code of Conduct: What are the community's standards for behavior?
+
+Development Setup: How do they instruct you to set up the project locally to start coding?
+
+Pull Request (PR) Process: What are the requirements for submitting a PR? (e.g., does it need tests, documentation, a specific title format?)
+
+Commit Message Style: Do they have a preferred format for Git commit messages?
+
+Python Coding Challenge
+Docstring Linter:
+Open-source projects often have linters to enforce code style. One common rule is that all functions must have a valid docstring. Your task is to write a simple function that checks a docstring against a project's rules.
+
+Requirements:
+
+Create a function validate_docstring(docstring: str) -> bool.
+
+The function should return True only if the docstring meets both of these criteria:
+
+It starts with a capital letter.
+
+It ends with a period (.).
+
+The docstring will be a non-empty string.
