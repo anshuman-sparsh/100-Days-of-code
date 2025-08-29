@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Number</title>
+    <style>
+        body { font-family: sans-serif; text-align: center; background-color: #f0f2f5; margin-top: 50px; }
+        .container { background: white; padding: 2rem; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); display: inline-block; }
+        input { padding: 8px; font-size: 1rem; }
+        button { padding: 8px 15px; font-size: 1rem; cursor: pointer; }
+        .message { margin-top: 20px; font-size: 1.2rem; font-weight: bold; }
+        .message.correct { color: #2ecc71; }
+        .message.incorrect { color: #e74c3c; }
+        .play-again { display: inline-block; margin-top: 15px; padding: 10px 20px; background: #3498db; color: white; text-decoration: none; border-radius: 5px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Guess the Number (1-100)</h1>
+        <p>I'm thinking of a number. Can you guess it?</p>
+
+        {% if 'secret_number' in session %}
+            <form action="{{ url_for('guess') }}" method="POST">
+                <input type="number" name="guess" min="1" max="100" required autofocus>
+                <button type="submit">Guess</button>
+            </form>
+        {% endif %}
+
+        {% if message %}
+            {% if 'Correct' in message %}
+                <p class="message correct">{{ message }}</p>
+                <a href="{{ url_for('reset') }}" class="play-again">Play Again?</a>
+            {% else %}
+                <p class="message incorrect">{{ message }}</p>
+            {% endif %}
+        {% endif %}
+        
+        {% if 'secret_number' in session and not message %}
+            <p><a href="{{ url_for('reset') }}">Start a New Game</a></p>
+        {% endif %}
+    </div>
+</body>
+</html>

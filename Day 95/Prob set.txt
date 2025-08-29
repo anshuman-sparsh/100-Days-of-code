@@ -1,0 +1,44 @@
+Topic: Mini Flask Game
+Subtopic: "Guess the Number" with Sessions
+
+
+Today's Tasks:
+Your goal is to build a classic "Guess the Number" game. The server will think of a secret number, and the user will try to guess it.
+
+1. Project Setup & Session Configuration:
+Create a new Flask project.
+The most important step is to configure the Flask session by setting a SECRET_KEY. The session is used to "remember" data between requests (like the secret number). Add this to your app setup: app.secret_key = 'your-very-secret-key-here'.
+
+
+
+2. Game Initialization Route:
+Create a main route (/). This route will handle starting a new game.
+Inside the route, check if a secret number already exists in the session.
+If not, generate a random integer between 1 and 100 and store it in the session: session['secret_number'] = random.randint(1, 100).
+Render an index.html template that contains the game's form.
+
+
+
+
+3. Build the Guessing Form:
+In your index.html file, create a simple HTML form.
+It should have a number input field for the user's guess and a submit button.
+The form should POST the guess to a /guess route.
+
+
+
+
+
+4. Implement the Guessing Logic:
+Create a /guess route that only accepts POST requests.
+Get the user's guess from the form data and convert it to an integer.
+Compare the guess to the session['secret_number'] and generate a feedback message (e.g., "Too high!", "Too low!", or "Correct! You guessed it!").
+Pass this feedback message back to the index.html template when you render it.
+
+
+
+
+
+5. Display Feedback & Reset:
+In your template, add a place to display the feedback message from the server.
+When the user guesses correctly, clear the session data (session.clear()) so a new secret number will be generated on their next visit to the main page. You can also add a "Play Again" button that links back to the main route.
