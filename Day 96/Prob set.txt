@@ -1,0 +1,45 @@
+The project is "CodeFolio," a web application that allows a developer to sign up, log in, and manage a list of their projects, which are then displayed on a clean, public portfolio page.
+
+Topic: Major Project (CodeFolio)
+Subtopic: Part 1 - Database Models & Project Structure
+
+
+Today's Tasks:
+Today is all about laying a solid foundation. A well-planned database is the backbone of any good web application.
+1. Project Scoping & Structure:
+Create a new directory for your project and set up a Flask application structure (app.py, static/, templates/).
+Briefly map out the core features on paper or in a comment:
+User registration and login.
+A dashboard for logged-in users to add, edit, and delete their projects.
+A public-facing page (/portfolio/<username>) to display a user's projects.
+
+
+
+2. Database Modeling:
+Using Flask-SQLAlchemy, define the database models that will power the application. You'll need two tables:
+User model: Should include columns for id (integer, primary key), username (string, unique), and password (string).
+Project model: Should include id, title, description (text), tech_used (string), github_link (string), and a user_id that is a foreign key linking to the User table.
+
+
+3. Database and App Initialization:
+In your app.py, configure the app to use SQLite and initialize the SQLAlchemy object.
+Write the necessary code to create the database file (.db) and all the tables based on the models you just defined.
+
+
+
+4. Create a Basic Index Route:
+To verify that your app is running, create a simple index route (/) that renders a basic HTML template. The template can simply say "CodeFolio Project - Coming Soon!" For now, the goal is just to ensure the Flask app starts without any errors.
+
+
+5. Frontend Design 
+Design & Style the Public Portfolio Page:
+
+Create a new template (e.g., portfolio.html). Using placeholder data, design the complete layout for a user's public portfolio page. This should include a bio section and a grid/list of project cards.
+
+Create and link a style.css file to style this page. Use Flexbox or Grid to make the project cards look clean and professional.
+
+Design the User Dashboard & "Add Project" Form:
+
+Create another template (e.g., dashboard.html). Design the page that a logged-in user will see.
+
+This page should include the form to add a new project (with fields for title, description, tech, link) and also a section to display a list of their existing projects (using placeholder data for now). Apply basic styling to make it user-friendly.
