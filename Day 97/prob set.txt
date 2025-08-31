@@ -1,0 +1,38 @@
+Topic: Major Project (CodeFolio)
+Subtopic: Part 2 - User Authentication
+
+Today's Tasks:
+Your mission is to build the full sign-up, login, and logout functionality. This is a critical step for any multi-user web application.
+
+
+
+1. Implement User Registration:
+Create a /register route that handles both GET (displaying the form) and POST (processing the form) requests.
+Create a register.html template with a form for a username and password.
+In the POST logic, hash the user's password before saving it. Use a library like werkzeug.security (which comes with Flask) to generate a hash. Never store plain text passwords.
+Add the new user to the database and redirect them to the login page.
+
+
+
+
+2. Implement User Login:
+Create a /login route and a login.html template.
+In the POST logic, query the database for the user by their username.
+If the user exists, use your hashing library's check_password_hash function to verify their password.
+If the password is correct, store the user's ID in the Flask session (e.g., session['user_id'] = user.id). This is how you "log them in."
+Redirect to a new /dashboard route upon a successful login.
+
+
+
+
+3. Implement Logout:
+Create a /logout route.
+This route's only job is to clear the session (session.clear()) and redirect the user back to the homepage.
+
+
+
+
+4. Protect the Dashboard Route:
+Create the /dashboard route that renders the dashboard.html template you designed yesterday.
+At the very beginning of this route's function, add a check to see if a user_id is present in the session.
+If no user_id is found, redirect the user to the /login page. This ensures only logged-in users can access the dashboard.
