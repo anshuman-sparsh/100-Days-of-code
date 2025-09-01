@@ -1,0 +1,43 @@
+Topic: Major Project (CodeFolio)
+Subtopic: Part 3 - Final CRUD, Polish, & Deployment
+
+
+Today's Final Checklist:
+Your application is already very powerful. This final checklist focuses on adding the last pieces of core functionality, polishing the user experience, and getting your project live on the internet.
+
+1. Implement "Delete Project" Functionality:
+On the dashboard.html template, make the "Delete" button for each project functional.
+Create a route (e.g., /delete/<int:project_id>) that handles the POST request.
+Security Check: Before deleting from the database, verify that the user_id in the session matches the project's owner.
+Redirect back to the dashboard with a success flash message.
+
+
+
+
+2. Implement "Update Project" Functionality:
+Create an edit_project.html template with a form similar to your "add project" form.
+Add an "Edit" button on the dashboard that links to an /edit/<int:project_id> route.
+The route should handle GET requests by fetching the project's data and rendering the edit form pre-filled with that data.
+The form should POST back to the same route to update the entry in the database (after another ownership check) and then redirect to the dashboard.
+
+
+
+3. Create a Project README.md:
+In your project's root directory, create a new README.md file.
+Document your project. Include a title, a short description of what CodeFolio does, the tech stack you used (Flask, SQLAlchemy, etc.), and brief instructions on how to set it up and run it locally.
+
+
+
+
+4. Final Polish & Error Handling:
+Add styling to your new edit_project.html page to match the rest of the site.
+Create a custom 404 error page. In app.py, define an error handler for 404 errors that renders a simple 404.html template to give your site a more professional feel.
+
+
+
+
+
+5. Deploy the Live Application!
+Prepare your project for deployment by creating a requirements.txt file.
+Choose a platform (like Render, which you've used before) and deploy your CodeFolio project. This will involve setting up the start command (using Gunicorn) and configuring your SECRET_KEY as an environment variable.
+This is the final step to showcase your major project to the world. Good luck!
