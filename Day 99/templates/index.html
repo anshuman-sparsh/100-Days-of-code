@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Match Game</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Memory Match Game</h1>
+    <div class="game-board">
+        {% for card_value in cards %}
+            <div class="card" data-value="{{ card_value }}">
+                <div class="card-face card-front"></div>
+                <div class="card-face card-back">{{ card_value }}</div>
+            </div>
+        {% endfor %}
+    </div>
+    <div class="win-message" id="win-message" style="display: none;">
+        <h2>You Win!</h2>
+        <button id="reset-game">Play Again</button>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

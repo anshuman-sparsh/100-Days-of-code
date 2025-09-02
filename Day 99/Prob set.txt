@@ -1,0 +1,40 @@
+Topic: Mini Flask Game
+Subtopic: JavaScript Memory Match
+
+
+Today's Tasks:
+Your mission is to build a classic "Memory Match" card game. The backend will set up the board, but all the game logic—flipping cards, checking for matches, and winning—will be handled on the client-side with JavaScript.
+
+1. Flask Backend: Prepare the Game Board:
+Set up a simple Flask application.
+In your main route (/), create a list that represents the pairs of cards (e.g., ['Cat', 'Dog', 'Pig', 'Cow', 'Cat', 'Dog', 'Pig', 'Cow']).
+Use Python's random.shuffle() to shuffle this list.
+Render an index.html template, passing the shuffled list of cards to it.
+
+
+
+2. HTML/CSS: Create the Card Grid:
+In your index.html template, use a Jinja2 for loop to dynamically create the grid of cards from the shuffled list.
+Each card can be a div element. Use a data attribute to store its value (e.g., <div class="card" data-value="{{ card }}">).
+Use CSS Grid or Flexbox to create the layout. Style the cards to have a "face-down" appearance. You can also create a CSS class for a "flipped" state (e.g., showing the value and a different background color).
+
+
+
+3. JavaScript: Handle Card Clicks:
+Create a script.js file and link it to your HTML.
+Add a click event listener to all the card elements.
+When a card is clicked, add the "flipped" CSS class to it to reveal its value. Prevent the user from clicking more than two cards at a time.
+
+
+
+4. JavaScript: Implement Match Logic:
+This is the core of the game. When two cards are flipped:
+Compare their data-value attributes.
+If they match: Disable clicks on those two cards to keep them permanently face-up.
+If they don't match: Use setTimeout to flip them back to their "face-down" state after a short delay (e.g., 1 second).
+
+
+
+5. JavaScript: Implement Win Condition:
+Keep track of how many pairs have been successfully matched.
+Once all pairs are found, display a "You Win!" message to the user. You could also add a "Reset Game" button that reloads the page to get a new shuffled board from the server.
