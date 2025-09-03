@@ -1,0 +1,41 @@
+Topic: Final Project
+Subtopic: The Classic Hangman Game
+
+
+Today's Final Challenge:
+Your mission is to build a complete, playable Hangman game using Flask to manage the logic and modern CSS to bring it to life.
+
+1. Backend Setup & Game Logic:
+Set up a Flask app with a SECRET_KEY to enable sessions.
+Create a list of words (e.g., ["PYTHON", "FLASK", "DEPLOYMENT", "DOCKER"]) or use words.txt to read from that file.
+Create a main route (/) that initializes the game by picking a random word and storing it, along with an empty list of guessed letters and a count of wrong guesses, in the session.
+
+
+
+2. Display the Game Board:
+In your index.html template, render the secret word by displaying letters that have been guessed and underscores (_) for those that haven't.
+Create a section to display the letters that have already been guessed to prevent the user from guessing the same letter twice.
+Add a simple form with a text input for the user to guess a single letter.
+
+
+
+3. Handle User Guesses:
+Create a /guess route that accepts POST requests from your form.
+Get the guessed letter, add it to the list of guessed letters in the session, and check if it's in the secret word.
+If the letter is incorrect, increment the wrong guess counter in the session.
+Redirect back to the main / route to show the updated game state.
+
+
+
+4. Implement Win/Loss Conditions:
+In your main route, before rendering the template, check the game state:
+Win: Has the user guessed all the letters in the secret word?
+Loss: Has the number of wrong guesses reached a limit (e.g., 6)?
+If the game is over, display a "You Win!" or "Game Over!" message and reveal the word. Add a "Play Again" button that resets the session.
+
+
+
+5. The CSS/SVG Hangman Drawing:
+This is the "go wild" part. Find or create a simple SVG of the hangman figure and gallows.
+Give each body part (<circle> for the head, <line> for the body, etc.) a class. Hide them all with CSS by default (visibility: hidden;).
+Pass the number of wrong guesses to your template and add it as a class to a container element (e.g., <div class="gallows wrong-{{ wrong_guesses }}">).

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hangman Game</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Hangman</h1>
+
+        <div class="game-area">
+            <div class="gallows-container wrong-{{ wrong_guesses }}">
+                <svg height="250" width="200" class="gallows">
+                    <line x1="10" y1="230" x2="130" y2="230" />
+                    <line x1="70" y1="230" x2="70" y2="20" />
+                    <line x1="70" y1="20" x2="170" y2="20" />
+                    <line x1="170" y1="20" x2="170" y2="50" />
+                    <circle cx="170" cy="70" r="20" class="body-part head" />
+                    <line x1="170" y1="90" x2="170" y2="150" class="body-part torso" />
+                    <line x1="170" y1="120" x2="140" y2="100" class="body-part arm-left" />
+                    <line x1="170" y1="120" x2="200" y2="100" class="body-part arm-right" />
+                    <line x1="170" y1="150" x2="140" y2="180" class="body-part leg-left" />
+                    <line x1="170" y1="150" x2="200" y2="180" class="body-part leg-right" />
+                </svg>
+            </div>
+            
+            <div class="game-info">
+                <div class="word-display">
+                    {% for letter in display_word %}
+                        <span class="letter">{{ letter }}</span>
+                    {% endfor %}
+                </div>
+                
+                <div class="guessed-letters">
+                    <p>Guessed: {{ guessed_letters | join(', ') }}</p>
+                </div>
+                
+                {% if game_over %}
+                    <div class="game-over-message">
+                        <h2>{{ message }}</h2>
+                        <a href="{{ url_for('reset_game') }}" class="btn">Play Again</a>
+                    </div>
+                {% else %}
+                    <form action="{{ url_for('guess') }}" method="POST" class="guess-form">
+                        <input type="text" name="letter" maxlength="1" pattern="[A-Za-z]" title="Enter a single letter" required autofocus>
+                        <button type="submit" class="btn">Guess</button>
+                    </form>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</body>
+</html>
