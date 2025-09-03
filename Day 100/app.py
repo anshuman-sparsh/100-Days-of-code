@@ -6,7 +6,6 @@ app.secret_key = 'a-super-secret-key-for-the-hangman-game'
 
 # --- Game Configuration ---
 def load_words():
-    """Reads words from words.txt and returns them as a list."""
     with open("Day 100/words.txt", "r") as word_file:
         words = [word.strip().upper() for word in word_file.readlines()]
     return words
@@ -17,7 +16,6 @@ MAX_WRONG_GUESSES = 6
 # --- Game Routes ---
 @app.route("/")
 def index():
-    """Initializes a new game or displays the current game state."""
     if 'word' not in session:
         start_new_game()
 
@@ -49,7 +47,6 @@ def index():
 
 @app.route("/guess", methods=["POST"])
 def guess():
-    """Processes a letter guess from the user."""
     guessed_letter = request.form.get("letter", "").upper()
     
     if 'word' in session and guessed_letter and len(guessed_letter) == 1 and guessed_letter.isalpha():
@@ -64,12 +61,10 @@ def guess():
 
 @app.route("/reset")
 def reset_game():
-    """Starts a new game by clearing the session."""
     session.clear()
     return redirect(url_for("index"))
 
 def start_new_game():
-    """Helper function to set up a new game in the session."""
     session['word'] = random.choice(WORD_LIST)
     session['guessed_letters'] = []
     session['wrong_guesses'] = 0
